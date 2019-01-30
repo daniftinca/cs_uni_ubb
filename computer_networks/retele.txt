@@ -1,0 +1,2485 @@
+Exista mai multe calculatoare cu adresa 127.0.0.1 ñ True
+2.	Adresa de broadcast se poate determina pe baza adresei IP si a netmask-ului ñTrue
+3.	Doua calculatoare din Internet pot sa aiba aceeasi adresa IP daca au aceeasi adresa MAC ñ False
+4.	 255.255.128.0 = /17 ñ True
+5.	 Netmask-ul se poate determina pe baza adresei IP si a adresei de broadcast ñ False
+6.	Dimensiunea unei clase de adrese IP nu trebuie sa fie putere a lui 2 ñ False
+7.	Apelul recvfrom() nu trimite date catre clientul UDP ñ True
+8.	IP este situat la nivelul Retea ñ True
+9.	192.168.0.2/24 si 192.168.1.6/24 fac parte din aceasi retea ñ False
+10.	Adresa MAC are un numar de 64 de biti ñ False
+11.	DNS foloseste protocolul UDP ñ True
+12.	SSH este situat la nivelul Aplicatie ñ True
+13.	DNS este situat la nivelul Retea ñ False
+14.	FTP nu este situat la nivelul Retea ñ True
+15.	Apelul bind() este obligatoriu in orice client TCP ñ False
+16.	Apelul accept() este obligatoriu in orice client UDP ñ False
+17.	Apelul recvfrom() citeste date de la clientul UDP ñ True
+18.	Star este o topologie de retea ñ True
+19.	Nu toate adresele IP din clasa 172.16.0.0/12 sunt private ñ False
+20.	Adresa 193.231.20.2 poate fi adresa de retea ñ False
+21.	Un calculator poate avea o singura adresa IP ñ False
+22.	FF:FF:FF:FF:FF este adresa MAC de broadcast. ñ False
+23.	Adresa 127.0.0.1 poate fi adresa de broadcast. ñ False
+24.	TCP este mai sigur ca UDP ñ True
+25.	O adresa IP este un numar binar pe 32 de biti ñ True
+26.	Un router se leaga de un calculator cu un cablu Straight-Through ñ False
+27.	TCP asteapta confirmarea primirii pachetelor- True
+28.	In LAN nu pot exista mai multe calculatoare cu adresa 192.168.1.1 ñ True
+29.	FTP nu este situat la nivelul Retea ñ True
+30.	Un router se leaga de un calculator cu un cablu Straight-Through ñ False
+31.	UDP nu este situat la nivelul Link ñ True
+32.	255.255.128.0 = /23 ñ False
+33.	SMTP nu este situat la nivelul Transport ñ True
+34.	Serviciul DNS ruleaza pe portul TCP 53 ñ False
+35.	HTTP este situat la nivelul Aplicatie ñ True
+36.	Adresa MAC poate fi schimbata. ñ True
+37.	Un calculator de leaga de un switch cu un cablu Straight-Through ñ True
+38.	TCP este uneori mai rapid ca UDP ñ True
+39.	Adresa 192.168.2.160/25 poate fi adresa de retea ñ False
+40.	168.168.168.168 nu este o adresa IP privata ñ True
+41.	Nu toate adresele IP din clasa 172.0.0.0/8 sunt private ñ True
+42.	SMTP este situat la nivelul Retea ñ False
+43.	Adresa de broadcast se poate determina pe baza adresei IP si a netmask-ului ñ True
+44.	127.0.0.1 nu poate fi setata pe un sistem ca server DNS ñ True
+45.	Un switch intelege adrese MAC ñ True
+46.	255.255.224.0 reprezinta un netmask valid ñ True
+47.	Exista mai multe calculatoare cu adresa 127.0.0.1 ñ True
+48.	UDP nu este situat la nivelul Aplicatie ñ True
+49.	Nu toate adresele IP din clasa 10.0.0.0/8 sunt private ñ False
+50.	O placa de retea poate avea mai multe adrese IP ñ True
+51.	HTTP nu este situat la nivelul Transport ñ True
+52.	Exista doar socketuri TCP si UDP ñ False
+53.	O clasa /16 se poate imparti in 16 clase /20 ñ True
+54.	IP este situat la nivelul Aplicatie ñ False
+55.	DNS este situat la nivelul Transport ñ False
+56.	Dimensiunea unei retele este 2^n; unde n este numarul de cifre 0 din netmask ñ True
+57.	Localhost este 172.0.0.1 ñ False
+58.	Un switch poate transporta pachete TCP ñ True
+59.	172.32.0.1 este o adresa IP privata ñ False
+60.	Adresa MAC nu poate fi schimbata. ñ False
+61.	Adresa 193.231.20.4 poate fi adresa de retea ñ True
+62.	Netmask-ul se poate calcula pe baza adresei de broadcast si a adresei de retea ñ True
+63.	UDP este mai sigur ca TCP ñ False
+64.	Apelul connect() este obligatoriu in orice client UDP ñ False
+65.	Apelul sendto() trimite date catre serverul UDP ñ True
+66.	172.31.0.1 nu este o adresa IP privata ñ False
+67.	Adresa 192.168.0.255 nu poate fi adresa de retea ñ True
+68.	Apelul recvfrom() trimite date catre clientul UDP ñ False
+69.	Toate adresele IP din clasa 192.168.0.0/16 sunt private ñ True
+70.	Apelul bind() este obligatoriu in orice server TCP ñ True
+71.	O clasa /16 nu se poate imparti in 16 clase /20 ñ False
+72.	192.168.0.2/23 si 192.168.1.6/23 fac parte din aceasi retea ñ True
+73.	O adresa de IP este un identificator unic pentru fiecare calculator Óntr-o retea IP ñ True
+74.	254.255.0.0 reprezinta un netmask valid ñ False
+75.	127.16.0.1 nu este o adresa IP privata ñ True
+76.	O clasa /8 se poate imparti in 4 clase /10. ñ True
+77.	Netmask-ul unei retele cu 512 adrese ip este /23 ñ True
+78.	Nu toate adresele IP din clasa 10.0.0.0/6 sunt private ñ True
+79.	HTTP este situat la nivelul Aplicatie ñ True
+80.	FTP nu este situat la nivelul Aplicatie ñ False
+81.	Adresa 192.168.0.255 poate fi adresa de retea ñ False
+82.	Un hub intelege adrese MAC ñ False
+83.	Serviciul DNS ruleaza pe portul UDP 53 ñ True
+84.	IP este situat la nivelul Transport ñ False
+85.	Apelul bind() poate fi folosit in clienti TCP ñ True
+86.	Dimensiunea unei retele este 2^n; unde n este numarul de cifre 1 din netmask ñ False
+87.	O clasa de adrese IP nu trebuie sa inceapa la multiplu de dimensiunea clasei ñ False
+88.	0.0.0.0 nu reprezinta un netmask valid ñ False
+89.	Apelul connect() este obligatoriu in orice client TCP ñ True
+90.	255.255.255.255 nu este adresa MAC de broadcast.- True
+91.	Ring este o topologie de retea ñ True
+92.	O retea cu netmask-ul 255.255.255.0 are 2^8=128 ip-uri.- False
+93.	Localhost nu este 172.0.0.1 ñ True
+94.	SSH nu este situat la nivelul Retea ñ True
+95.	Netmask-ul unei retele cu 1024 adrese ip este /23 ñ False
+96.	Toate adresele IP din clasa 172.0.0.0/8 sunt private ñ False
+97.	Un switch poate transporta pachete IP ñ True
+98.	HTTP nu este situat la nivelul Retea ñ True
+99.	UDP nu este situat la nivelul Transport ñFalse
+100.	Doua calculatoare plasate in aceeasi retea atat din punct de vedere fizic cat si logic nu pot avea default gateway-uri diferite - False
+1.	Exista mai multe calculatoare cu adresa 127.0.0.1 – True
+2.	Adresa de broadcast se poate determina pe baza adresei IP si a netmask-ului –True
+3.	Doua calculatoare din Internet pot sa aiba aceeasi adresa IP daca au aceeasi adresa MAC – False
+4.	 255.255.128.0 = /17 – True
+5.	 Netmask-ul se poate determina pe baza adresei IP si a adresei de broadcast – False
+6.	Dimensiunea unei clase de adrese IP nu trebuie sa fie putere a lui 2 – False
+7.	Apelul recvfrom() nu trimite date catre clientul UDP – True
+8.	IP este situat la nivelul Retea – True
+9.	192.168.0.2/24 si 192.168.1.6/24 fac parte din aceasi retea – False
+10.	Adresa MAC are un numar de 64 de biti – False
+11.	DNS foloseste protocolul UDP – True
+12.	SSH este situat la nivelul Aplicatie – True
+13.	DNS este situat la nivelul Retea – False
+14.	FTP nu este situat la nivelul Retea – True
+15.	Apelul bind() este obligatoriu in orice client TCP – False
+16.	Apelul accept() este obligatoriu in orice client UDP – False
+17.	Apelul recvfrom() citeste date de la clientul UDP – True
+18.	Star este o topologie de retea – True
+19.	Nu toate adresele IP din clasa 172.16.0.0/12 sunt private – False
+20.	Adresa 193.231.20.2 poate fi adresa de retea – False
+21.	Un calculator poate avea o singura adresa IP – False
+22.	FF:FF:FF:FF:FF este adresa MAC de broadcast. – False
+23.	Adresa 127.0.0.1 poate fi adresa de broadcast. – False
+24.	TCP este mai sigur ca UDP – True
+25.	O adresa IP este un numar binar pe 32 de biti – True
+26.	Un router se leaga de un calculator cu un cablu Straight-Through – False
+27.	TCP asteapta confirmarea primirii pachetelor- True
+28.	In LAN nu pot exista mai multe calculatoare cu adresa 192.168.1.1 – True
+29.	FTP nu este situat la nivelul Retea – True
+30.	Un router se leaga de un calculator cu un cablu Straight-Through – False
+31.	UDP nu este situat la nivelul Link – True
+32.	255.255.128.0 = /23 – False
+33.	SMTP nu este situat la nivelul Transport – True
+34.	Serviciul DNS ruleaza pe portul TCP 53 – False
+35.	HTTP este situat la nivelul Aplicatie – True
+36.	Adresa MAC poate fi schimbata. – True
+37.	Un calculator de leaga de un switch cu un cablu Straight-Through – True
+38.	TCP este uneori mai rapid ca UDP – True
+39.	Adresa 192.168.2.160/25 poate fi adresa de retea – False
+40.	168.168.168.168 nu este o adresa IP privata – True
+41.	Nu toate adresele IP din clasa 172.0.0.0/8 sunt private – True
+42.	SMTP este situat la nivelul Retea – False
+43.	Adresa de broadcast se poate determina pe baza adresei IP si a netmask-ului – True
+44.	127.0.0.1 nu poate fi setata pe un sistem ca server DNS – True
+45.	Un switch intelege adrese MAC – True
+46.	255.255.224.0 reprezinta un netmask valid – True
+47.	Exista mai multe calculatoare cu adresa 127.0.0.1 – True
+48.	UDP nu este situat la nivelul Aplicatie – True
+49.	Nu toate adresele IP din clasa 10.0.0.0/8 sunt private – False
+50.	O placa de retea poate avea mai multe adrese IP – True
+51.	HTTP nu este situat la nivelul Transport – True
+52.	Exista doar socketuri TCP si UDP – False
+53.	O clasa /16 se poate imparti in 16 clase /20 – True
+54.	IP este situat la nivelul Aplicatie – False
+55.	DNS este situat la nivelul Transport – False
+56.	Dimensiunea unei retele este 2^n; unde n este numarul de cifre 0 din netmask – True
+57.	Localhost este 172.0.0.1 – False
+58.	Un switch poate transporta pachete TCP – True
+59.	172.32.0.1 este o adresa IP privata – False
+60.	Adresa MAC nu poate fi schimbata. – False
+61.	Adresa 193.231.20.4 poate fi adresa de retea – True
+62.	Netmask-ul se poate calcula pe baza adresei de broadcast si a adresei de retea – True
+63.	UDP este mai sigur ca TCP – False
+64.	Apelul connect() este obligatoriu in orice client UDP – False
+65.	Apelul sendto() trimite date catre serverul UDP – True
+66.	172.31.0.1 nu este o adresa IP privata – False
+67.	Adresa 192.168.0.255 nu poate fi adresa de retea – True
+68.	Apelul recvfrom() trimite date catre clientul UDP – False
+69.	Toate adresele IP din clasa 192.168.0.0/16 sunt private – True
+70.	Apelul bind() este obligatoriu in orice server TCP – True
+71.	O clasa /16 nu se poate imparti in 16 clase /20 – False
+72.	192.168.0.2/23 si 192.168.1.6/23 fac parte din aceasi retea – True
+73.	O adresa de IP este un identificator unic pentru fiecare calculator într-o retea IP – True
+74.	254.255.0.0 reprezinta un netmask valid – False
+75.	127.16.0.1 nu este o adresa IP privata – True
+76.	O clasa /8 se poate imparti in 4 clase /10. – True
+77.	Netmask-ul unei retele cu 512 adrese ip este /23 – True
+78.	Nu toate adresele IP din clasa 10.0.0.0/6 sunt private – True
+79.	HTTP este situat la nivelul Aplicatie – True
+80.	FTP nu este situat la nivelul Aplicatie – False
+81.	Adresa 192.168.0.255 poate fi adresa de retea – False
+82.	Un hub intelege adrese MAC – False
+83.	Serviciul DNS ruleaza pe portul UDP 53 – True
+84.	IP este situat la nivelul Transport – False
+85.	Apelul bind() poate fi folosit in clienti TCP – True
+86.	Dimensiunea unei retele este 2^n; unde n este numarul de cifre 1 din netmask – False
+87.	O clasa de adrese IP nu trebuie sa inceapa la multiplu de dimensiunea clasei – False
+88.	0.0.0.0 nu reprezinta un netmask valid – False
+89.	Apelul connect() este obligatoriu in orice client TCP – True
+90.	255.255.255.255 nu este adresa MAC de broadcast.- True
+91.	Ring este o topologie de retea – True
+92.	O retea cu netmask-ul 255.255.255.0 are 2^8=128 ip-uri.- False
+93.	Localhost nu este 172.0.0.1 – True
+94.	SSH nu este situat la nivelul Retea – True
+95.	Netmask-ul unei retele cu 1024 adrese ip este /23 – False
+96.	Toate adresele IP din clasa 172.0.0.0/8 sunt private – False
+97.	Un switch poate transporta pachete IP – True
+98.	HTTP nu este situat la nivelul Retea – True
+99.	UDP nu este situat la nivelul Transport –False
+100.	Doua calculatoare plasate in aceeasi retea atat din punct de vedere fizic cat si logic nu pot avea default gateway-uri diferite - False
+ 
+ 
+1.	Exista mai multe calculatoare cu adresa 127.0.0.1 – True
+2.	Adresa de broadcast se poate determina pe baza adresei IP si a netmask-ului –True
+3.	Doua calculatoare din Internet pot sa aiba aceeasi adresa IP daca au aceeasi adresa MAC – False
+4.	 255.255.128.0 = /17 – True
+5.	 Netmask-ul se poate determina pe baza adresei IP si a adresei de broadcast – False
+6.	Dimensiunea unei clase de adrese IP nu trebuie sa fie putere a lui 2 – False
+7.	Apelul recvfrom() nu trimite date catre clientul UDP – True
+8.	IP este situat la nivelul Retea – True
+9.	192.168.0.2/24 si 192.168.1.6/24 fac parte din aceasi retea – False
+10.	Adresa MAC are un numar de 64 de biti – False
+11.	DNS foloseste protocolul UDP – True
+12.	SSH este situat la nivelul Aplicatie – True
+13.	DNS este situat la nivelul Retea – False
+14.	FTP nu este situat la nivelul Retea – True
+15.	Apelul bind() este obligatoriu in orice client TCP – False
+16.	Apelul accept() este obligatoriu in orice client UDP – False
+17.	Apelul recvfrom() citeste date de la clientul UDP – True
+18.	Star este o topologie de retea – True
+19.	Nu toate adresele IP din clasa 172.16.0.0/12 sunt private – False
+20.	Adresa 193.231.20.2 poate fi adresa de retea – False
+21.	Un calculator poate avea o singura adresa IP – False
+22.	FF:FF:FF:FF:FF este adresa MAC de broadcast. – False
+23.	Adresa 127.0.0.1 poate fi adresa de broadcast. – False
+24.	TCP este mai sigur ca UDP – True
+25.	O adresa IP este un numar binar pe 32 de biti – True
+26.	Un router se leaga de un calculator cu un cablu Straight-Through – False
+27.	TCP asteapta confirmarea primirii pachetelor- True
+28.	In LAN nu pot exista mai multe calculatoare cu adresa 192.168.1.1 – True
+29.	FTP nu este situat la nivelul Retea – True
+30.	Un router se leaga de un calculator cu un cablu Straight-Through – False
+31.	UDP nu este situat la nivelul Link – True
+32.	255.255.128.0 = /23 – False
+33.	SMTP nu este situat la nivelul Transport – True
+34.	Serviciul DNS ruleaza pe portul TCP 53 – False
+35.	HTTP este situat la nivelul Aplicatie – True
+36.	Adresa MAC poate fi schimbata. – True
+37.	Un calculator de leaga de un switch cu un cablu Straight-Through – True
+38.	TCP este uneori mai rapid ca UDP – True
+39.	Adresa 192.168.2.160/25 poate fi adresa de retea – False
+40.	168.168.168.168 nu este o adresa IP privata – True
+41.	Nu toate adresele IP din clasa 172.0.0.0/8 sunt private – True
+42.	SMTP este situat la nivelul Retea – False
+43.	Adresa de broadcast se poate determina pe baza adresei IP si a netmask-ului – True
+44.	127.0.0.1 nu poate fi setata pe un sistem ca server DNS – True
+45.	Un switch intelege adrese MAC – True
+46.	255.255.224.0 reprezinta un netmask valid – True
+47.	Exista mai multe calculatoare cu adresa 127.0.0.1 – True
+48.	UDP nu este situat la nivelul Aplicatie – True
+49.	Nu toate adresele IP din clasa 10.0.0.0/8 sunt private – False
+50.	O placa de retea poate avea mai multe adrese IP – True
+51.	HTTP nu este situat la nivelul Transport – True
+52.	Exista doar socketuri TCP si UDP – False
+53.	O clasa /16 se poate imparti in 16 clase /20 – True
+54.	IP este situat la nivelul Aplicatie – False
+55.	DNS este situat la nivelul Transport – False
+56.	Dimensiunea unei retele este 2^n; unde n este numarul de cifre 0 din netmask – True
+57.	Localhost este 172.0.0.1 – False
+58.	Un switch poate transporta pachete TCP – True
+59.	172.32.0.1 este o adresa IP privata – False
+60.	Adresa MAC nu poate fi schimbata. – False
+61.	Adresa 193.231.20.4 poate fi adresa de retea – True
+62.	Netmask-ul se poate calcula pe baza adresei de broadcast si a adresei de retea – True
+63.	UDP este mai sigur ca TCP – False
+64.	Apelul connect() este obligatoriu in orice client UDP – False
+65.	Apelul sendto() trimite date catre serverul UDP – True
+66.	172.31.0.1 nu este o adresa IP privata – False
+67.	Adresa 192.168.0.255 nu poate fi adresa de retea – True
+68.	Apelul recvfrom() trimite date catre clientul UDP – False
+69.	Toate adresele IP din clasa 192.168.0.0/16 sunt private – True
+70.	Apelul bind() este obligatoriu in orice server TCP – True
+71.	O clasa /16 nu se poate imparti in 16 clase /20 – False
+72.	192.168.0.2/23 si 192.168.1.6/23 fac parte din aceasi retea – True
+73.	O adresa de IP este un identificator unic pentru fiecare calculator într-o retea IP – True
+74.	254.255.0.0 reprezinta un netmask valid – False
+75.	127.16.0.1 nu este o adresa IP privata – True
+76.	O clasa /8 se poate imparti in 4 clase /10. – True
+77.	Netmask-ul unei retele cu 512 adrese ip este /23 – True
+78.	Nu toate adresele IP din clasa 10.0.0.0/6 sunt private – True
+79.	HTTP este situat la nivelul Aplicatie – True
+80.	FTP nu este situat la nivelul Aplicatie – False
+81.	Adresa 192.168.0.255 poate fi adresa de retea – False
+82.	Un hub intelege adrese MAC – False
+83.	Serviciul DNS ruleaza pe portul UDP 53 – True
+84.	IP este situat la nivelul Transport – False
+85.	Apelul bind() poate fi folosit in clienti TCP – True
+86.	Dimensiunea unei retele este 2^n; unde n este numarul de cifre 1 din netmask – False
+87.	O clasa de adrese IP nu trebuie sa inceapa la multiplu de dimensiunea clasei – False
+88.	0.0.0.0 nu reprezinta un netmask valid – False
+89.	Apelul connect() este obligatoriu in orice client TCP – True
+90.	255.255.255.255 nu este adresa MAC de broadcast.- True
+91.	Ring este o topologie de retea – True
+92.	O retea cu netmask-ul 255.255.255.0 are 2^8=128 ip-uri.- False
+93.	Localhost nu este 172.0.0.1 – True
+94.	SSH nu este situat la nivelul Retea – True
+95.	Netmask-ul unei retele cu 1024 adrese ip este /23 – False
+96.	Toate adresele IP din clasa 172.0.0.0/8 sunt private – False
+97.	Un switch poate transporta pachete IP – True
+98.	HTTP nu este situat la nivelul Retea – True
+99.	UDP nu este situat la nivelul Transport –False
+100.	Doua calculatoare plasate in aceeasi retea atat din punct de vedere fizic cat si logic nu pot avea default gateway-uri diferite - False
+ 
+ 
+1.Un switch are mai multe porturi-True
+2.SSH nu este situat la nivelul Link-True
+3.Adresa MAC este reprezentata pe 6 cifre hexa.-False
+4.Adresa 192.168.0.255 nu poate fi adresa de retea-True
+5.Un server web nu poate rula si pe porturi diferite de 80-False
+6.Toate adresele IP din clasa 172.0.0.0/8 sunt private-False
+7.IP este situat la nivelul Transport-False
+8.Adresa de retea se poate calcula pe baza adresei de broadcast si a adresei IP-False
+9.Adresa MAC este reprezentata pe 6 biti.-False
+10.HTTP este situat la nivelul Link-False
+ 
+11.Adresa MAC este reprezentata pe 6 grupuri de 2 cifre hexa.-True
+12.Un socket TCP se creeaza cu parametrii AF_INET si SOCK_STREAM-True
+13.Apelul accept() este obligatoriu in orice server TCP-True
+14.Apelul recvfrom() citeste date de la serverul UDP-True
+15.Adresa 192.168.0.255 nu poate fi adresa de retea-True          (SE REPETA)
+16.127.16.0.1 nu este o adresa IP privata-True
+17.IP este situat la nivelul Aplicatie-False
+18.Adresa 127.0.0.1 poate fi adresa de retea.-False
+19.Exista mai multe calculatoare cu adresa 127.0.0.1-True
+20.Default gateway-ul unui calculator nu se afla in aceeasi retea cu el-False
+ 
+21.Adresa MAC nu poate fi schimbata.-False
+22.168.168.168.168 este o adresa IP privata-False
+23.HTTP foloseste protocolul UDP-False
+24.127.0.0.1 nu poate fi setata pe un sistem ca server DNS-True
+25.Toate adresele IP din clasa 172.16.0.0/12 sunt private-True
+26.FTP este situat la nivelul Transport-False
+27.Apelul accept() este obligatoriu in orice server TCP-True
+28.Apelul connect() este obligatoriu in orice server TCP-False
+29.SMTP nu este situat la nivelul Retea-True
+30.Un calculator poate avea mai multe placi de retea-True
+ 
+31.Nu pot exista calculatoare cu adresa 192.168.1.0-False
+32.Adresa de retea nu se poate calcula pe baza adresei de broadcast si a netmask-ului-False
+33.DNS nu este situat la nivelul Aplicatie-False
+34.DNS nu este situat la nivelul Link-True
+35.Adresa 193.231.20.2 poate fi adresa de retea-False
+36.Dimensiunea unei clase de adrese IP nu trebuie sa fie putere a lui 2-False
+37.Toate adresele IP din clasa 192.168.0.0/8 sunt private-False   (Se repeta)
+38.Apelul connect() este obligatoriu in orice client UDP-False (Se repeta)
+39.FTP nu este situat la nivelul Link-True
+40.Adresa 193.256.20.0 poate fi adresa de retea-False
+ 
+41.O placa de retea poate avea mai multe adrese IP-True
+42.Prescurtarea CLI vine de la Command Line Interface-True
+43.Un calculator poate avea 2 gateway-uri-False
+44.TCP este situat la nivelul Aplicatie-False
+45.MAC inseamna media address control.-False
+46.1.1.1.1 este o adresa IP privata-False
+47.UDP nu este situat la nivelul Retea-True
+48.Exista si altfel de socketuri decat TCP si UDP-True
+49.Nu exista mai multe calculatoare cu adresa 127.0.0.1-False
+50.Un switch este mai performant ca un hub-True
+ 
+51.Un hub nu intelege adrese MAC-True
+52.TCP este situat la nivelul Retea-False
+53.Apelul sendto() trimite date catre clientul UDP-True
+54.172.16.0.1 nu este o adresa IP privata-False
+55.Nu toate adresele IP din clasa 192.168.0.0/16 sunt private-False
+56.Apelul recvfrom() trimite date catre clientul TCP-False
+57.DNS este situat la nivelul Link-False
+58.TCP este intotdeauna mai rapid ca UDP-False
+59.Adresa 87.35.15.63/26 poate fi adresa de broadcast-True
+60.SMTP este situat la nivelul Transport-False
+ 
+61.DNS este situat la nivelul Transport-False
+62.Un switch nu intelege adrese MAC-True
+63.HTTP inseamna Hyperspeed Transfer Protocol-False
+64.Un switch nu poate transporta pachete TCP-False
+65.DNS nu este situat la nivelul Retea-True
+66.Dimensiunea unei retele este 2^n; unde n este numarul de cifre 0 din IP.-True
+67.172.31.0.1 nu este o adresa IP privata-False
+68.Un calculator poate avea o singura placa de retea-False
+69.Nu toate adresele IP din clasa 10.0.0.0/6 sunt private-True
+70.TCP este situat la nivelul Retea-False
+ 
+71.Apelul recvfrom() trimite date catre clientul UDP-False
+72.Ring este o topologie de retea-False
+73.UDP este orientat conexiune-False
+74.Apelul connect() nu poate fi folosit in clienti UDP-True
+75.HTTP nu foloseste protocolul TCP-False
+76.255.254.0.0 reprezinta un netmask valid-True
+77.UDP este situat la nivelul Retea-False
+78.IP nu este situat la nivelul Transport-True
+79.Apelul connect() nu poate fi folosit in clienti TCP-False
+80.Adresa MAC este reprezentata pe 6 octeti.-True
+ 
+81.Toate adresele IP din clasa 10.0.0.0/16 sunt private-True
+82.UDP este uneori mai rapid ca TCP-True
+83.255.255.128.0 = /23=-False
+84.DNS este situat la nivelul Aplicatie-True
+85.Doua calculatoare din Internet pot sa aiba aceeasi adresa IP daca au aceeasi adresa MAC-False
+86.172.31.255.255 este o adresa IP privata-True
+87.Apelul sendto() trimite date catre serverul UDP-True
+88.UDP este situat la nivelul Aplicatie-False
+89.Apelul accept() este obligatoriu in orice client UDP-False
+90.O adresa IP este un numar binar pe 48 de biti-False
+ 
+91.Default gateway-ul unui calculator se afla in aceeasi retea cu el-True
+92.UDP nu este situat la nivelul Link-True
+93.HTTP nu este situat la nivelul Aplicatie-False
+94.ARP inseamna Address Resolution Proocol-True
+95.O clasa de adrese IP trebuie sa inceapa la multiplu de dimensiunea clasei-True
+96.Apelul bind() nu poate fi folosit in clienti TCP-False
+97.Default gateway-ul unui calculator este IP-ul serverului din reteaua respectiva-False
+98.Netmask-ul unei retele cu 1024 adrese ip este /10-False
+99.O clasa de adrese IP nu trebuie sa inceapa la multiplu de dimensiunea clasei-False
+100.O clasa /24 se poate imparti in 2 subclase de 128 IP.-True
+ 
+1)SMTP nu este situat la nivelul Aplicatie - false
+2)O retea cu netmask-ul 255.255.255.0 are 2^8=128 ip-uri. - false
+3)IP este situat la nivelul Link - false
+4)HTTP nu foloseste protocolul TCP - false
+5)1.1.1.1 este o adresa IP privata - false
+6)HTTP nu este situat la nivelul Transport - true
+7)Apelul bind() poate fi folosit in clienti TCP - true
+8)192.168.1.2/24 si 192.168.1.6/24 fac parte din aceasi retea - true
+9)Adresa de retea se poate calcula pe baza adresei IP si a netmask-ului - tru
+10)Un hub are mai multe porturi - true
+11)Apelul bind() este obligatoriu in orice client TCP - false
+12)UDP este intotdeauna mai rapid ca TCP - false
+13)Apelul recvfrom() trimite date catre clientul TCP - false
+14)Adresa MAC este reprezentata pe 48 de biti. - true
+15)255.255.224.0 reprezinta un netmask valid - true
+16)172.31.0.1 este o adresa IP privata - true
+17)LAN reprezinta un acronim pentru: Limited Area Network - false
+18)Netmask-ul unei retele cu 1024 adrese ip este 1/2 - false
+19)SMTP este situat la nivelul Retea - false
+20)HTTP inseamna Hyperspeed Transfer Protocol - false
+21)DNS inseamna Domain Name Service - false
+22)192.168.168.168 nu este o adresa IP privata - false
+23)00:00:00:00:00:00 nu este adresa MAC de broadcast. - true
+24)FTP este situat la nivelul Retea - false
+25)Pot exista mai multe calculatoare cu adresa 192.168.1.1 - true
+26)SSH este situat la nivelul Aplicatie - true
+27)Nu exista mai multe calculatoare cu adresa 127.0.0.1 - false
+28)Adresa 192.168.0.0 poate fi adresa de retea - true
+29)Netmask-ul nu se poate determina pe baza adresei IP si a adresei de broadcast - true
+30)Apelul listen() este obligatoriu in orice server TCP - true
+31)UDP este orientat conexiune - false
+32)172.0.0.1 este o adresa IP privata - false
+33)FTP este situat la nivelul Aplicatie - true
+34)Adresa 193.255.20.0 poate fi adresa de retea - true
+35)SMTP nu este situat la nivelul Transport - true
+36)Netmask-ul NU poate conţine biţi 0 intercalaţi cu biţi de 1 - true
+37)DNS foloseste protocolul TCP - false
+38)Apelul connect() nu poate fi folosit in clienti TCP - false
+39)Pe un acelasi server web nu pot fi gazduite mai multe site-uri web - false
+40)1.1.1.1 nu este o adresa IP privata - true
+41)192.168.2.155 face parte din clasa 192.168.0.0/23 - false
+42)TCP nu este situat la nivelul Retea - true
+43)192.168.168.168 este o adresa IP privata - true
+44)Telefoanele mobile nu se pot conecta la Internet fara placa de retea - tru
+45)Un server web nu poate rula si pe porturi diferite de 80 - false
+46)Apelul bind() poate fi folosit in clienti UDP - true
+47)HTTPS transmite datele criptat - true
+48)Un switch poate transporta pachete IP - true
+49)UDP este mai sigur ca TCP - false
+50)Doua calculatoare din Internet pot sa aiba aceeasi adresa IP daca folosesc adrese IP false - true
+51)Un server DNS poate fi Default Gateway - true
+52)Exista mai multe calculatoare cu adresa 127.0.0.1 - true
+53)Apelul recvfrom() nu trimite date catre serverul UDP - true
+54)Netmask-ul se poate determina pe baza adresei IP si a adresei de broadcast - false
+55)SSH nu este situat la nivelul Retea - true
+56)Apelul bind() este obligatoriu in orice server UDP - true
+57)Serverul DNS setat pe un calculator poate fi localizat in aceeasi retea cu calculatorul - true
+58) UDP nu este orientat conexiune - true
+59)Doua calculatoare din Internet pot sa aiba aceeasi adresa IP daca au aceeasi adresa MAC - false
+60)TCP este intotdeauna mai rapid ca UDP - false
+61)Adresa 193.231.20.3 poate fi adresa de retea - false
+62)Placa de retea nu transmite datele catre alte calculatoare - false
+63)O adresa de IP este un identificator comun pentru mai multe calculatoare într-o reţea IP - false
+64)HTTP nu este situat la nivelul Link - true
+65)172.31.0.1 nu este o adresa IP privata - false
+66)UDP nu este situat la nivelul Retea - true
+67)Toate adresele IP din clasa 192.168.0.0/16 sunt private - true
+68)Apelul bind() nu poate fi folosit in clienti TCP - false
+69)Toate adresele IP din clasa 192.168.0.0/8 sunt private - false
+70)DNS este situat la nivelul Transport - false
+71)Adresa de retea nu se poate calcula pe baza adresei IP si a netmask-ului - false
+72)DNS nu este situat la nivelul Transport - true
+73)MAC inseamna media address control. - false
+74)FF:FF:FF:FF:FF nu este adresa MAC de broadcast. - true
+75)HTTP foloseste protocolul UDP - false
+76)LAN nu reprezinta un acronim pentru: Limited Area Network - true
+77)Apelul recvfrom() citeste date de la clientul UDP - true
+78)Apelul listen() este obligatoriu in orice server UDP - false
+79)O clasa /24 se poate imparti in 2 subclase de 512 IP. - false
+80)UDP este situat la nivelul Retea - false
+81)Apelul bind() este obligatoriu in orice server TCP - true
+82)Toate adresele IP din clasa 172.16.0.0/12 sunt private - true
+83)Un calculator poate avea o singura adresa IP - false
+84)HTTP este situat la nivelul Transport - false
+85)Adresa IP nu se poate determina pe baza adresei de retea si a netmask-ului - true
+86)Apelul recvfrom() trimite date catre serverul TCP - false
+87)Placa de retea poate sa fie si externa - true
+88)SMTP este situat la nivelul Transport - false
+89)DNS este situat la nivelul Link - false
+90)O placa de retea poate avea o singura adresa IP - false
+91)Apelul sendto() trimite date catre serverul UDP - true
+92)UDP este situat la nivelul Aplicatie - false
+93)Un calculator poate avea mai multe placi de retea - true
+94)O clasa /8 se poate imparti in 4 clase /10. - true
+95)Netmask-ul se poate calcula pe baza adresei de broadcast si a adresei de retea - true
+96)Un server DNS poate fi Default Gateway - true
+97)Toate adresele IP din clasa 10.0.0.0/16 sunt private - true
+98)Un socket UDP se creeaza cu parametrii AF_INET and SOCK_DGRAM - true
+99)Adresa de retea se poate calcula pe baza adresei de broadcast si a netmask-ului - true
+100)Adresa 43.23.87.64/27 poate fi adresa de retea - true
+
+FF:FF:FF:FF:FF este adresa MAC de broadcast. False
+
+Nu pot exista mai multe calculaoare cu adresa 127.0.0.1 False
+
+255.255.128.0 = /17. True
+
+Exista doar socketuri TCP si UDP. False
+
+Adresa 127.0.0.1 poate fi adresa de broadcast. False
+
+LAN reprezinta un acronim pentru: Limited Area Network. False
+
+00:00:00:00:00:00 nu este adresa MAC de broadcast. True
+
+ARP inseamna Address Resolution Proocol. True
+
+Adresa IP se poate determina pe baza adresei de retea si a netmask-ului. False
+
+Adresa MAC este reprezentata pe 6 biti. False
+
+Un netmask este un numar binar pe 48 de biti False
+
+0.0.0.0 reprezinta un netmask valid True
+
+HTTP foloseste protocolul TCP True
+
+Apelul connect() este obligatoriu in orice client TCP True
+
+Pot exista mai multe calculatoare cu adresa 192.168.1.1 True
+
+255.255.225.0 reprezinta un netmask valid False
+
+Apelul accept() nu este obligatoriu in orice client TCP True
+
+SSH nu este situat la nivelul Aplicatie False
+
+Default gateway-ul unui calculator se afla in aceeasi retea cu el True
+
+Prescurtarea CLI vine de la Coding Line Interface False
+
+192.168.1.155 face parte din clasa 192.168.1.0/25 False
+
+FTP este situat la nivelul Transport False
+
+255.255.224.0 reprezinta un netmask valid True
+
+FTP este situat la nivelul Retea False
+
+Un switch nu poate transporta pachete IP False
+
+Un hub este mai performant ca un switch False
+
+192.168.1.155 face parte din clasa 192.168.0.0/23 True
+
+SSH nu este situat la nivelul Transport True
+
+Apelul sendto() trimite date catre serverul UDP True
+
+FTP este situat la nivelul Link False
+
+11111111.10000000.00000000.00000000 = 255.1.0.0 False
+
+Operaþia logica AND între masca ºi adresa IP are ca rezultat adresa reþelei True
+
+11111111.10000000.00000000.00000000 = 255.128.0.0 True
+
+Exista mai mult de doua topologii standard de retea True
+
+Apelul listen() este obligatoriu in orice server TCP True
+
+Adresa 193.231.20.0 poate fi adresa de retea True
+
+168.168.168.168 nu este o adresa IP privata True
+
+Adresa de retea se poate calcula pe baza adresei IP si a netmask-ului True
+
+Star este o topologie de retea True
+
+Apelul connect() este obligatoriu in orice client UDP False
+
+Adresa 43.23.87.68/26 poate fi adresa de retea False
+
+UDP este situat la nivelul Aplicatie False
+
+O adresa de IP este un identificator comun pentru mai multe calculatoare într-o reþea IP False
+
+Prescurtarea CLI vine de la Coding Line Interface False
+
+SMTP nu este situat la nivelul Aplicatie False
+
+255.255.255.255 nu este adresa MAC de broadcast. True
+
+Adresa de retea se poate calcula pe baza adresei IP si a netmask-ului True
+
+UDP nu este situat la nivelul Transport False
+
+Serviciul DNS ruleaza pe portul UDP 53 True
+
+Un router se leaga de un calculator cu un cablu Cross-Over True
+
+192.168.2.155 face parte din clasa 192.168.0.0/23 False
+
+SMTP nu este situat la nivelul Retea True
+
+Adresa de retea nu se poate calcula pe baza adresei de broadcast si a netmask-ului False
+
+172.31.255.255 este o adresa IP privata True
+
+TCP este situat la nivelul Aplicatie False
+
+SMTP este situat la nivelul Link False
+
+HTTP este situat la nivelul Transport False
+
+Un socket UDP se creeaza cu parametrii AF_INET and SOCK_DGRAM True
+
+Adresa MAC este reprezentata pe 6 grupuri de 2 cifre hexa. True
+
+Adresa de retea nu se poate calcula pe baza adresei IP si a netmask-ului False
+
+HTTP nu este situat la nivelul Transport True
+
+Adresa 192.168.0.255 poate fi adresa de retea False
+
+FF:FF:FF:FF:FF:FF nu este adresa MAC de broadcast. False
+
+Adresa MAC nu poate fi schimbata. False
+
+Pe un acelasi server web nu pot fi gazduite mai multe site-uri web False
+
+DNS nu este situat la nivelul Link True
+
+Apelul accept() este obligatoriu in orice client UDP False
+
+SMTP nu este situat la nivelul Link True
+
+DNS este situat la nivelul Aplicatie True
+
+Apelul connect() este obligatoriu in orice client TCP True
+
+Apelul bind() este obligatoriu in orice client TCP False
+
+Apelul listen() poate fi folosit in orice server TCP True
+
+Placa de retea nu transmite datele catre alte calculatoare False
+
+TCP asteapta confirmarea primirii pachetelor True
+
+Apelul bind() poate fi folosit in clienti TCP True
+
+Adresa 127.0.0.1 poate fi adresa de broadcast. False
+
+Apelul connect() nu poate fi folosit in clienti TCP False
+
+Un server DNS poate fi Default Gateway True
+
+Un hub are mai multe porturi True
+
+HTTP inseamna Hypertext Transfer Protocol True
+
+DNS este situat la nivelul Retea False
+
+1.1.1.1 nu este o adresa IP privata True
+
+Adresa MAC este reprezentata pe 6 cifre hexa. False
+
+Ring este o topologie de retea True
+
+O clasa /24 se poate imparti in 2 subclase /25. True
+
+Dimensiunea unei retele este 2^n; unde n este numarul de cifre 0 din IP. False
+
+Un switch poate transporta pachete TCP True
+
+Un calculator poate avea mai multe adrese IP True
+
+Nu toate adresele IP din clasa 172.0.0.0/8 sunt private True
+
+Un switch poate transporta pachete IP True
+
+O clasa /24 se poate imparti in 3 subclase /25. False
+
+Nu pot exista mai multe calculaoare cu adresa 127.0.0.1 False
+
+Adresa 43.23.87.68/26 poate fi adresa de retea False
+
+Adresa 192.168.2.128/25 poate fi adresa de retea True
+
+192.168.2.155 face parte din clasa 192.168.0.0/22 True
+
+IP este situat la nivelul Retea True
+
+Apelul accept() este obligatoriu in orice server TCP True
+
+SMTP nu este situat la nivelul Link True
+
+Apelul listen() poate fi folosit in orice server TCP True
+
+Default gateway-ul unui calculator este IP-ul serverului din reteaua respectiva False
+
+Apelul bind() este obligatoriu in orice server TCP-True
+Apelul recvfrom() nu trimite date catre clientul TCP-True
+SMTP nu este situat la nivelul Link-True
+Netmask-ul se poate determina pe baza adresei IP si a adresei de broadcast-False
+Adresa 193.231.20.0 poate fi adresa de retea-True
+UDP este situat la nivelul Aplicatie-False
+DNS nu este situat la nivelul Link-True
+HTTP este situat la nivelul Transport-False
+Adresa de subretea pentru statia cu adresa IP 192.120.0.1/16 este 192.120.0.0-True
+Adresa 43.23.87.68/26 poate fi adresa de retea-False
+
+UDP este mai sigur ca TCP-False
+Nu toate adresele IP din clasa 10.0.0.0/8 sunt private-False
+DNS este situat la nivelul Link-False
+Adresa MAC este reprezentata pe 6 cifre hexa.-False
+0.0.0.0 nu reprezinta un netmask valid-False
+Apelul connect() poate fi folosit in clienti TCP-True
+Localhost nu este 172.0.0.1-True
+172.31.255.255 nu este o adresa IP privata-False
+Adresa 193.231.20.4 poate fi adresa de retea-True
+SMTP este situat la nivelul Retea-False
+
+IP este situat la nivelul Retea-True
+00:00:00:00:00:00 nu este adresa MAC de broadcast.-True
+172.31.255.255 nu este o adresa IP privata-False
+Localhost este 172.0.0.1-False
+O clasa /24 se poate imparti in 2 subclase /25.-True
+Netmask-ul se poate determina pe baza adresei IP si a adresei de broadcast-False
+255.255.224.0 reprezinta un netmask valid-True
+Serverul DNS setat pe un calculator trebuie localizat in aceeasi retea cu calculatorul-False
+Un socket UDP se creeaza cu parametrii AF_INET and SOCK_STREAM-False
+O retea cu netmask-ul 255.255.255.0 are 2^8=256 ip-uri.-True
+
+Apelul bind() poate fi folosit in clienti UDP-True
+IP nu este situat la nivelul Retea-False
+192.168.1.2/24 si 192.168.1.6/22 fac parte din aceasi retea-False
+Un switch nu intelege adrese MAC-False
+00:00:00:00:00:00 este adresa MAC de broadcast.-False
+Nu pot exista mai multe calculaoare cu adresa 127.0.0.1-False
+127.0.0.1 nu poate fi setata pe un sistem ca default gateway-False
+Nu toate adresele IP din clasa 192.168.0.0/16 sunt private-False
+UDP nu este orientat conexiune-True
+Serviciul DNS ruleaza pe portul UDP 53-True
+
+TCP nu este situat la nivelul Link-True
+Un calculator nu poate avea 2 gateway-uri-True
+Adresa de broadcast nu se poate calcula pe baza adresei de retea si a netmask-ului-False
+FTP nu este situat la nivelul Aplicatie-FAlse
+Adresa MAC este reprezentata pe 6 biti.-FAlse
+192.168.168.168 nu este o adresa IP privata-False
+Apelul listen() nu este obligatoriu in orice client TCP-True
+Pot exista calculatoare cu adresa 192.168.1.0-True
+255.254.0.0 reprezinta un netmask valid-True
+IP este situat la nivelul Aplicatie-False
+
+Netmask-ul nu se poate determina pe baza adresei IP si a adresei de retea-True
+UDP nu este situat la nivelul Retea-True
+Un hub este mai performant ca un switch-False
+LAN reprezinta un acronim pentru: Limited Area Network-False
+Adresa 87.35.15.63/26 poate fi adresa de broadcast-True
+Un socket UDP se creeaza cu parametrii AF_INET si SOCK_STREAM-False
+Clasa 193.231.20.0/24 se poate imparti in 2 subclase de 128 IP.-True
+Dimensiunea unei retele este 2^n; unde n este numarul de cifre 0 din netmask-True
+SSH nu este situat la nivelul Aplicatie-False
+SMTP nu este situat la nivelul Retea-True
+
+193.55.44.170 & 255.255.255.128 = 193.55.43.128-True
+O retea cu netmask-ul 255.255.255.0 poate avea maxim 2^8-2=254 calculatoare.-True
+TCP este situat la nivelul Retea-False
+Serviciul DNS ruleaza pe portul TCP 53-False
+Apelul recvfrom() trimite date catre serverul UDP-False
+Adresa MAC nu poate fi schimbata.-False
+Dimensiunea unei retele este 2^n; unde n este numarul de cifre 1 din netmask-False
+Apelul recvfrom() citeste date de la serverul TCP-False
+Adresa 87.35.15.63/26 poate fi adresa de broadcast-True
+DNS inseamna Domain Name System-True
+
+HTTP inseamna Hyperspeed Transfer Protocol-False
+Adresa 192.168.2.32/27 poate fi adresa de retea-True
+192.168.2.155 face parte din clasa 192.168.0.0/22-True
+Un socket UDP se creeaza cu parametrii AF_INET si SOCK_DGRAM-True
+Adresa 127.0.0.1 nu poate fi adresa de broadcast.-True
+SSH nu este situat la nivelul Retea-True
+O clasa /16 nu se poate imparti in 16 clase /20-False
+HTTP transmite datele criptat-False
+Netmask-ul unei retele cu 1024 adrese ip este /22-True
+IP este situat la nivelul Link-False
+
+O placa de retea poate avea o singura adresa IP-False
+Apelul connect() nu poate fi folosit in clienti UDP-True
+Adresa MAC este reprezentata pe 12 cifre hexa.-True
+Netmask-ul nu se poate determina pe baza adresei IP si a adresei de broadcast-True
+HTTP foloseste protocolul TCP-True
+Toate adresele IP din clasa 10.0.0.0/16 sunt private-True
+Apelul listen() este obligatoriu in orice server UDP-False
+Adresa 87.35.15.7/29 poate fi adresa de broadcast-True
+UDP este intotdeauna mai rapid ca TCP-False
+Un switch poate transporta pachete UDP-True
+
+TCP este situat la nivelul Transport-True
+255.254.0.0 reprezinta un netmask valid-True
+HTTP foloseste protocolul TCP-True
+172.31.0.1 nu este o adresa IP privata-False
+Nu pot exista calculatoare cu adresa 192.168.1.0-False
+Netmask-ul nu se poate determina pe baza adresei IP si a adresei de broadcast-True
+Un netmask este un numar binar pe 48 de biti-False
+Adresa 43.29.45.80/27 poate fi adresa de retea-False
+Un hub nu are mai multe porturi-False
+HTTP este situat la nivelul Aplicatie-True
+1. Un switch are mai multe porturi. - Truese
+2. Netmask-ul se poate determina pe baza adresei IP si a adresei de retea. - False
+3. Adresa 43.23.87.68/26 poate fi adresa de retea. - False
+4. Toate adresele IP din clasa 10.0.0.0/8 sunt private. - True
+5. UDP nu este situat la nivelul Aplicatie. - True
+6. Adresa de retea nu se poate calcula pe baza adresei de broadcast si a netmask-ului. - False
+7. 255.255.255.255 nu este adresa MAC de broadcast. - True
+8. Apelul bind() poate fi folosit in clienti UDP. - True
+9. Serverul DNS setat pe un calculator poate fi localizat in aceeasi retea cu calculatorul. - True
+10. TCP este situat la nivelul Retea. - False
+
+11. FTP nu este situat la nivelul Link. - True
+12. UDP este situat la nivelul Transport. - True
+13. MAC inseamna media address control. - False
+14. TCP este orientat conexiune. - True
+15. Apelul accept() este obligatoriu in orice client TCP. - False
+16. UDP nu este situat la nivelul Aplicatie. - True
+17. HTTP nu foloseste protocolul TCP. - False
+18. SSH este situat la nivelul Link. - False
+19. TCP nu este situat la nivelul Retea - True
+20. DNS nu este situat la nivelul Link. - True
+
+21. Adresa 193.231.20.0 poate fi adresa de retea. - True
+22. 172.16.0.1 este o adresa IP privata. - True
+23. Un switch nu intelege adrese MAC. - False
+24. O retea cu netmask-ul 255.255.255.0 are 2^8=128 ip-uri. - False
+25. Adresa 43.23.87.68/26 poate fi adresa de retea. - False (se repeta)
+26. 255.255.225.0 reprezinta un netmask valid. - False
+27. Netmask-ul unei retele cu 512 adrese ip este /24. - False
+28. HTTP este situat la nivelul Aplicatie. - True
+29. Apelul sendto() trimite date catre serverul TCP. - False
+30. FF:FF:FF:FF:FF:FF este adresa MAC de broadcast. - True
+
+31. Adresa 127.0.0.1 poate fi adresa de broadcast. - False
+32. Apelul recvfrom() trimite date catre clientul UDP. - False
+33. 172.31.0.1 nu este o adresa IP privata. - False
+34. Toate placile de reþea au aceeasi adresa MAC (Media Access Control address). - False
+35. Bus este o topologie de retea. - True
+36. Netmask-ul unei retele cu 1024 adrese ip este /23. - False
+37. Adresa 192.168.0.255 nu poate fi adresa de retea. - True
+38. Routerele folosesc adrese IP pentru a transmite cadrele catre alte reþele. - True
+39. Toate adresele IP din clasa 10.0.0.0/6 sunt private. - False
+40. Un calculator nu poate avea 2 gateway-uri. - True
+
+41. UDP este situat la nivelul Link. - False
+42. Apelul sendto() trimite date catre clientul UDP. - True
+43. Apelul sendto() trimite date catre serverul UDP. - True
+44. Exista si altfel de socketuri decat TCP si UDP. - True
+45. 11111111.10000000.00000000.00000000 = 255.128.0.0. - True
+46. TCP este mai sigur ca UDP. - True
+47. Adresa MAC este reprezentata pe 6 cifre hexa. - False
+48. Apelul sendto() trimite date catre clientul TCP. - False
+49. 255.254.0.0 reprezinta un netmask valid. - True
+50. Adresa de retea se poate calcula pe baza adresei de broadcast si a netmask-ului. - True
+
+51. UDP este mai sigur ca TCP. - False
+52. Netmask-ul unei retele cu 512 adrese ip este /23 - True
+53. Adresa 127.0.0.1 nu poate fi adresa de retea. - True
+54. Netmask-ul se poate calcula pe baza adresei de broadcast si a adresei de retea. - True
+55. TCP nu este situat la nivelul Transport. - False
+56. 255.255.225.0 reprezinta un netmask valid. - False
+57. O clasa /24 se poate imparti in 3 subclase /26. - True
+58. Apelul connect() nu poate fi folosit in clienti UDP. - True
+59. O retea cu netmask-ul 255.255.255.0 poate avea maxim 2^8-2=254 calculatoare. - True
+60. 192.168.1.155 face parte din clasa 192.168.1.0/25. - False
+
+61. 192.168.1.155 face parte din clasa 192.168.0.0/24. - False
+62. Un calculator poate avea o singura placa de retea. - False
+63. Apelul connect() este obligatoriu in orice server UDP. - False
+64. Apelul recvfrom() trimite date catre serverul TCP. - False
+65. HTTP este situat la nivelul Transport. - False
+66. 192.168.2.155 face parte din clasa 192.168.0.0/22. - True
+67. 127.0.0.1 nu poate fi setata pe un sistem ca default gateway. - False
+68. Star este o topologie de retea. - True
+69. Adresa MAC poate fi schimbata. - True
+70. O clasa de adrese IP trebuie sa inceapa la multiplu de dimensiunea clasei. - True
+
+71. O clasa /8 se poate imparti in 4 clase /10. - True
+72. O placa de retea poate avea mai multe adrese IP. - True
+73. 10.10.10.10 este o adresa IP privata. - True
+74. Adresa 127.0.0.1 nu poate fi adresa de broadcast. - True
+75. Un netmask este un numar binar pe 48 de biti. - False
+76. Adresa de broadcast nu se poate calcula pe baza adresei de retea si a netmask-ului. - False
+77. DNS inseamna Domain Name Service. - False
+78. Clasa 193.231.20.0/24 se poate imparti in 3 subclase de 128 IP. - False
+79. O clasa /24 se poate imparti in 3 subclase de 128 IP. - False
+80. DNS este situat la nivelul Link. - False
+
+81. Apelul connect() este obligatoriu in orice server TCP. - False
+82. Un calculator poate avea mai multe placi de retea. - True
+83. Adresa 127.0.0.1 poate fi adresa de broadcast. - False
+84. Adresa MAC este reprezentata pe 12 cifre hexa. - True
+85. Nu pot exista mai multe calculaoare cu adresa 127.0.0.1. - False
+86. Adresa MAC este reprezentata pe 6 octeti. - False
+87. Localhost nu este 172.0.0.1. - True
+88. Pot exista calculatoare cu adresa 192.168.1.0. - True
+89. Operaþia logica AND între masca ºi adresa IP are ca rezultat adresa de broadcast. - False
+90. Un punct de acces wireless are o raza de acoperire limitata. - True
+
+91. 127.16.0.1 este o adresa IP privata. - False
+92. Netmask-ul poate conþine biþi 0 intercalaþi cu biþi de 1. - False
+93. HTTP nu este situat la nivelul Link. - True
+94. Placa de reþea funcþioneaza ca interfaþa fizica între calculator ºi cablul de reþea. - False
+95. SMTP nu este situat la nivelul Transport. - True
+96. Exista doar doua topologii standard de retea: Magistrala (Bus); Stea (Star). - False
+97. Netmask-ul unei retele cu 1024 adrese ip este /12. - False
+98. O placa de retea poate avea o singura adresa IP. - False
+99. DNS foloseste protocolul TCP. - False
+100. Ring nu este o topologie de retea. - False
+
+TCP nu este situat la nivelul Link – True
+
+2. Placa de retea poate sa fie si externa – True
+
+3. Exista si altfel de socketuri decat TCP si UDP – True
+
+4. 254.255.0.0 reprezinta un netmask valid – False
+
+5. TCP este situat la nivelul Transport – True
+
+6. IP este situat la nivelul Aplicatie – False
+
+7. HTTP foloseste protocolul TCP – True
+
+8. FF:FF:FF:FF:FF:FF este adresa MAC de broadcast. – True (ff apare de 6 ori)
+
+9. Adresa 193.231.20.4 poate fi adresa de retea – True
+
+10. 255.255.225.0 reprezinta un netmask valid – False
+
+1. Star este o topologie de retea – T
+
+2. Localhost este 172.0.0.1 – F
+
+3. UDP nu este orientat conexiune – T
+
+4. 192.168.2.155 face parte din clasa 192.168.0.0/22 – T
+
+5. 255.255.128.0 = /17 – T
+
+6. Nu toate adresele IP din clasa 10.0.0.0/16 sunt private – F
+
+7. FTP este situat la nivelul Link – F
+
+8. 192.168.168.168 nu este o adresa IP privata – F
+
+9. Star este o topologie de retea – T
+
+10. UDP nu este orientat conexiune - T
+
+1. Adresa 127.0.0.1 poate fi adresa de retea. – F
+
+2. IP nu este situat la nivelul Transport – T
+
+3. FF:FF:FF:FF:FF este adresa MAC de broadcast. – F (ff apare de 5 ori)
+
+4. FF:FF:FF:FF:FF este adresa MAC de broadcast. – T
+
+5. DNS nu este situat la nivelul Retea – T
+
+6. FTP este situat la nivelul Aplicatie – T
+
+7. DNS inseamna Domain Name System – T
+
+8. Apelul bind() poate fi folosit in clienti TCP – T
+
+9. DNS este situat la nivelul Transport – F
+
+10. FTP este situat la nivelul Aplicatie – T
+
+1. Adresa de retea nu se poate calcula pe baza adresei de broadcast si a adresei IP – T
+
+2. 11111111.11111111.11111100.00000000 = 255.255.252.0 – T
+
+3. Adresa de broadcast se poate determina pe baza adresei IP si a netmask-ului - T
+
+4. SMTP este situat la nivelul Link – F
+
+5. Adresa 192.168.2.160/25 poate fi adresa de retea – F
+
+6. 172.32.0.1 nu este o adresa IP privata – T
+
+7. O placa de retea poate avea o singura adresa IP – F
+
+8. 1.1.1.1 este o adresa IP privata – F
+
+9. Nu toate adresele IP din clasa 192.168.0.0/16 sunt private – F
+
+10. 172.31.0.1 nu este o adresa IP privata – F
+
+1. Un switch nu intelege adrese MAC - F
+
+2. Nu toate adresele IP din clasa 172.16.0.0/12 sunt private – F
+
+3. Apelul connect() nu poate fi folosit in clienti UDP – T
+
+4. Pentru conectarea unui calculator la o reţea LAN; se foloseste placa de reţea – T
+
+5. Adresa 193.255.20.0 poate fi adresa de retea – T
+
+6. Nu pot exista mai multe calculatoare cu adresa 192.168.1.1 – F
+
+7. O clasa de adrese IP trebuie sa inceapa la multiplu de dimensiunea clasei – T
+
+8. Default gateway-ul unui calculator se afla in aceeasi retea cu el – T
+
+9. 255.255.128.0 = /23 – F
+
+10. 11111111.11111111.11111100.00000000 = 255.255.254.0 – F
+
+1. Nu toate adresele IP din clasa 10.0.0.0/6 sunt private – T
+
+2. TCP este orientat conexiune – T
+
+3. 255.255.255.255 este adresa MAC de broadcast. – F
+
+4. 255.255.255.255 nu este adresa MAC de broadcast. – T
+
+5. Un punct de acces wireless are o raza de acoperire limitata – T
+
+6. Un calculator nu poate avea 2 gateway-uri – T
+
+7. Un switch nu poate transporta pachete IP – F
+
+8. SSH este situat la nivelul Link – F
+
+9. FTP este situat la nivelul Transport – F
+
+10. TCP nu este situat la nivelul Transport – T
+
+1. Netmask-ul unei retele cu 512 adrese ip este /24 – F
+
+2. Adresa 87.35.15.63/26 poate fi adresa de broadcast – T
+
+3. Adresa de broadcast se poate determina pe baza adresei IP si a netmask-ului – T
+
+4. Apelul listen() este obligatoriu in orice client TCP – F
+
+5. DNS nu este situat la nivelul Retea – T
+
+6. 0.0.0.0 reprezinta un netmask valid – T
+
+7. Adresa 127.0.0.1 poate fi adresa de broadcast. – F
+
+8. Bus este o topologie de retea – T
+
+9. FTP nu este situat la nivelul Aplicatie – F
+
+10. Adresa MAC este reprezentata pe 6 grupuri de 2 cifre hexa. – T
+
+1. Clasa 193.231.20.0/24 se poate imparti in 2 subclase de 128 IP. – T
+
+2. Apelul listen() este obligatoriu in orice server UDP – F
+
+3. TCP este uneori mai rapid ca UDP – T
+
+4. 0.0.0.0 nu reprezinta un netmask valid – F
+
+5. Prescurtarea CLI vine de la Coding Line Interface – F
+
+6. TCP nu este situat la nivelul Aplicatie – T
+
+7. SMTP este situat la nivelul Aplicatie – T
+
+8. TCP nu este situat la nivelul Transport – F
+
+9. FTP nu este situat la nivelul Link – T
+
+10. HTTP inseamna Hyperspeed Transfer Protocol – F
+
+1. Netmask-ul poate conţine biţi 0 intercalaţi cu biţi de 1 – F
+
+2. Placa de reţea funcţioneaza ca interfaţa fizica între calculator şi cablul de reţea – F
+
+3. Apelul recvfrom() citeste date de la clientul UDP – T
+
+4. Toate adresele IP din clasa 10.0.0.0/6 sunt private – F
+
+5. UDP este situat la nivelul Link – F
+
+6. Adresa MAC poate fi schimbata. – T
+
+7. Toate adresele IP din clasa 172.0.0.0/12 sunt private – F
+
+8. Adresa MAC are un numar de 48 de biti – T
+
+9. ARP inseamna Address Resolution Protocol – T
+
+10. O retea cu netmask-ul 255.255.255.0 poate avea maxim 2^8=256 calculatoare. – F
+
+1. 192.168.1.155 face parte din clasa 192.168.1.0/25 – F
+
+2. DNS nu este situat la nivelul Transport – T
+
+3. Bus nu este o topologie de retea – F
+
+4. HTTP este situat la nivelul Transport – F
+
+5. Nu toate adresele IP din clasa 10.0.0.0/16 sunt private – F
+
+6. 172.32.0.1 este o adresa IP privata – F
+
+7. DNS inseamna Domain Name Service – F
+
+8. Pe un acelasi server web nu pot fi gazduite mai multe site-uri web – F
+
+9. 1.1.1.1 nu este o adresa IP privata – T
+
+10. Toate adresele IP din clasa 10.0.0.0/6 sunt private - F
+
+SSH este situat la nivelul Aplicatie
+True
+
+HTTP nu este situat la nivelul Retea
+True
+
+O placa de retea poate avea o singura adresa IP
+False
+
+Netmask-ul poate conţine biţi 0 intercalaţi cu biţi de 1
+False
+
+IP este situat la nivelul Link
+False
+
+UDP este situat la nivelul Transport
+True
+
+TCP asteapta confirmarea primirii pachetelor
+True
+
+Adresa 127.0.0.1 nu poate fi adresa de retea.
+True
+
+SMTP nu este situat la nivelul Link
+True
+
+Un server DNS poate fi Default Gateway
+True
+
+Adresa 87.35.15.63/26 poate fi adresa de broadcast
+True
+
+Adresa 193.231.20.1 poate fi adresa de retea
+False
+
+Telefoanele mobile nu se pot conecta la Internet fara placa de retea
+True
+
+HTTP inseamna Hyperspeed Transfer Protocol
+False
+
+SMTP nu este situat la nivelul Retea
+True
+
+Un switch poate transporta pachete IP
+True
+
+Apelul connect() este obligatoriu in orice client UDP
+False
+
+Dimensiunea unei retele este 2^n; unde n este numarul de cifre 0 din IP
+False
+
+Un server web nu poate rula si pe porturi diferite de 80
+False
+
+127.16.0.1 nu este o adresa IP privata
+True
+
+Adresa 83.35.15.8/28 poate fi adresa de broadcast
+False
+
+172.31.255.255 nu este o adresa IP privata
+False
+
+Default gateway-ul unui calculator se afla in aceeasi retea cu el
+True
+
+255.254.0.0 reprezinta un netmask valid
+True
+
+Doua calculatoare din Internet pot sa aiba aceeasi adresa IP daca au aceeasi adresa MAC
+False
+
+Un calculator de leaga de un swith cu un cablu Cross-Over
+False
+
+Un server web poate rula si pe porturi diferite de 80
+True
+
+Apelul listen() este obligatoriu in orice client UDP
+False
+
+IP nu este situat la nivelul Link
+True
+
+Adresa de retea nu se poate calcula pe baza adresei de broadcast si a adresei IP
+True 
+
+Un switch nu poate transporta pachete UDP
+False
+
+Un switch nu poate transporta pachete IP
+False
+
+Star nu este o topologie de retea
+False
+
+192.168.0.2/23 si 192.168.1.6/23 fac parte din aceasi retea
+True
+
+FTP este situat la nivelul Retea
+False
+
+DNS nu este situat la nivelul Transport
+False
+
+HTTP este situat la nivelul Retea
+False
+
+193.55.44.170 & 255.255.255.128 = 193.55.43.128
+True
+
+Netmask-ul unei retele cu 1024 adrese ip este /12
+False
+
+Exista mai mult de doua topologii standard de retea
+True
+
+Adresa 192.168.2.128/25 poate fi adresa de retea
+True
+
+11111111.11111111.11111100.00000000 = 255.255.254.0
+False
+
+Doua calculatoare plasate in aceeasi retea atat din punct de vedere fizic cat si logic pot avea default gateway-uri diferite
+True
+
+192.168.168.168 nu este o adresa IP privata
+False
+
+0.0.0.0 nu reprezinta un netmask valid
+True
+
+Prescurtarea CLI vine de la Command Line Interface
+True
+
+Un switch intelege adrese MAC
+True
+
+Nu toate adresele IP din clasa 10.0.0.0/16 sunt private
+False
+
+O clasa /24 se poate imparti in 2 subclase /25.
+True
+
+Nu pot exista mai multe calculatoare cu adresa 192.168.1.1
+False
+
+HTTP nu este situat la nivelul Transport
+True
+
+Default gateway-ul unui calculator este IP-ul serverului din reteaua respectiva
+False
+
+Apelul recvfrom() nu trimite date catre clientul UDP
+True
+
+HTTPS transmite datele criptat
+True
+
+HTTP nu foloseste protocolul TCP
+False
+
+Localhost nu este 127.0.0.1
+False
+
+O retea cu netmask-ul 255.255.255.0 are 2^8=128 ip-uri.
+False
+
+Pe un acelasi server web nu pot fi gazduite mai multe site-uri web
+False
+
+Exista si altfel de socketuri decat TCP si UDP
+True
+
+Un calculator poate avea o singura adresa IP
+False
+
+Apelul listen() nu este obligatoriu in orice client TCP
+True
+
+O clasa /24 se poate imparti in 2 subclase /25.
+True
+
+Apelul connect() nu poate fi folosit in clienti UDP
+True
+
+Adresa de retea nu se poate calcula pe baza adresei IP si a netmask-ului
+False
+
+Un switch nu poate transporta pachete IP
+False
+
+Un hub intelege adrese MAC
+False
+
+SSH nu este situat la nivelul Retea
+True
+
+O clasa /24 se poate imparti in 3 subclase /25.
+False
+
+Un socket UDP se creeaza cu parametrii AF_INET and SOCK_STREAM
+False
+
+Adresa 127.0.0.1 nu poate fi adresa de broadcast.
+True
+
+Un switch nu poate transporta pachete TCP
+False
+
+Un socket UDP se creeaza cu parametrii AF_INET and SOCK_DGRAM
+True
+
+Adresa MAC este reprezentata pe 6 octeti.
+True
+
+Adresa MAC este reprezentata pe 6 grupuri de 2 cifre hexa.
+True
+
+Netmask-ul unei retele cu 1024 adrese ip este /22
+True
+
+Toate adresele IP din clasa 172.0.0.0/12 sunt private
+False
+
+Un calculator de leaga de un swith cu un cablu Straight-Through
+True
+
+172.32.0.1 este o adresa IP privata
+False
+
+Nu toate adresele IP din clasa 192.168.0.0/16 sunt private
+False
+
+Serverul DNS setat pe un calculator poate fi localizat in aceeasi retea cu calculatorul
+True
+
+Apelul connect() este obligatoriu in orice client TCP
+True
+
+Apelul bind() nu poate fi folosit in clienti TCP
+False
+
+DNS inseamna Domain Name System
+True
+
+Un hub intelege adrese MAC
+True
+
+Adresa 127.0.0.1 poate fi adresa de broadcast.
+False
+
+Doua calculatoare din Internet pot sa aiba aceeasi adresa IP daca au aceeasi adresa MAC
+False
+
+DNS foloseste protocolul TCP
+False
+
+Apelul accept() este obligatoriu in orice server TCP
+False
+
+Un calculator poate avea mai multe adrese IP
+True
+
+DNS este situat la nivelul Transport
+False
+
+Adresa MAC are un numar de 64 de biti
+False
+
+LAN reprezinta un acronim pentru: Limited Area Network
+False
+
+Pe un acelasi server web pot fi gazduite mai multe site-uri web
+True
+
+Adresa IP se poate determina pe baza adresei de retea si a netmask-ului
+False
+
+Apelul connect() poate fi folosit in clienti TCP
+True
+
+Adresa 192.168.0.255 poate fi adresa de retea
+False
+
+Un switch nu poate transporta pachete UDP
+False
+
+Localhost este 172.0.0.1
+False
+
+172.31.0.1 nu este o adresa IP privata
+False
+
+Default gateway-ul unui calculator se afla in aceeasi retea cu el
+Select one:
+True 
+
+TCP este mai sigur ca UDP
+Select one:
+True 
+
+172.31.0.1 nu este o adresa IP privata
+Select one:
+False 
+
+Apelul connect() este obligatoriu in orice server TCP
+Select one:
+False 
+
+HTTP inseamna Hyperspeed Transfer Protocol
+Select one:
+False 
+
+192.168.168.168 este o adresa IP privata
+Select one:
+True
+
+Netmask-ul unei retele cu 1024 adrese ip este /23
+Select one:
+False
+
+Un switch nu poate transporta pachete UDP
+Select one:
+False 
+
+172.15.0.1 nu este o adresa IP privata
+Select one:
+True 
+
+Apelul bind() poate fi folosit in clienti UDP
+Select one:
+True
+
+HTTP este situat la nivelul Aplicatie
+Select one:
+True
+
+Apelul accept() poate fi folosit in orice server TCP
+Select one:
+True 
+
+1.1.1.1 este o adresa IP privata
+Select one:
+False
+
+Apelul connect() nu poate fi folosit in clienti UDP
+Select one:
+True
+
+Un server web nu poate rula si pe porturi diferite de 80
+Select one:
+False 
+
+O clasa /24 se poate imparti in 2 subclase de 512 IP.
+Select one:
+False
+
+Apelul listen() este obligatoriu in orice server TCP
+Select one:
+True
+
+Un router se leaga de un calculator cu un cablu Straight-Through
+Select one:
+False 
+
+Nu toate adresele IP din clasa 192.168.0.0/16 sunt private
+Select one:
+False
+
+Adresa MAC nu poate fi schimbata.
+Select one:
+False
+
+Localhost este 172.0.0.1
+Select one:
+False
+
+Adresa 192.168.2.32/27 poate fi adresa de retea
+Select one:
+True
+
+FF:FF:FF:FF:FF:FF este adresa MAC de broadcast.
+Select one:
+True
+
+Adresa MAC este reprezentata pe 6 cifre hexa.
+Select one:
+False
+
+HTTP transmite datele criptat
+Select one:
+False 
+
+FTP nu este situat la nivelul Retea
+Select one:
+True
+
+192.168.1.155 face parte din clasa 192.168.1.0/24
+Select one:
+True
+
+Star nu este o topologie de retea
+Select one:
+False 
+
+Toate adresele IP din clasa 172.0.0.0/12 sunt private
+Select one:
+False
+
+Exista doar doua topologii standard de retea: Magistrala (Bus); Stea (Star)
+Select one:
+False
+
+127.16.0.1 nu este o adresa IP privata
+Select one:
+True 
+
+HTTP nu este situat la nivelul Transport
+Select one:
+True
+
+Apelul accept() nu este obligatoriu in orice client TCP
+Select one:
+True 
+
+Un calculator nu poate avea 2 gateway-uri
+Select one:
+True
+
+Localhost este 127.0.0.1
+Select one:
+True 
+
+O adresa de IP este un identificator unic pentru fiecare calculator într-o retea IP
+Select one:
+True 
+
+Doua calculatoare plasate in aceeasi retea atat din punct de vedere fizic cat si logic nu pot avea default gateway-uri diferite
+Select one:
+False 
+
+
+Toate adresele IP din clasa 10.0.0.0/6 sunt private
+Select one:
+False 
+
+Pot exista calculatoare cu adresa 192.168.1.0
+Select one:
+True 
+
+FTP este situat la nivelul Retea
+Select one:
+False 
+
+127.0.0.1 nu poate fi setata pe un sistem ca default gateway
+Select one:
+False
+
+Netmask-ul se poate determina pe baza adresei IP si a adresei de retea
+Select one:
+False
+
+Adresa 193.231.20.1 poate fi adresa de retea
+Select one:
+True Incorrect
+
+In LAN pot exista mai multe calculatoare cu adresa 192.168.1.1
+Select one:
+False
+
+172.0.0.1 nu este o adresa IP privata
+Select one:
+True
+
+HTTP nu este situat la nivelul Transport
+Select one:
+True 
+
+O clasa de adrese IP nu trebuie sa inceapa la multiplu de dimensiunea clasei
+Select one:
+False
+
+O adresa IP este un numar binar pe 32 de biti
+Select one:
+True
+
+11111111.10000000.00000000.00000000 = 255.128.0.0
+Select one:
+True 
+
+Serviciul DNS ruleaza pe portul TCP 53
+Select one:
+False
+
+Apelul recvfrom() citeste date de la clientul UDP
+Select one:
+True 
+
+255.255.255.255 este adresa MAC de broadcast.
+Select one:
+False
+
+Adresa de broadcast se poate calcula pe baza adresei de retea si a netmask-ului
+Select one:
+True
+
+Pe un acelasi server web nu pot fi gazduite mai multe site-uri web
+Select one:
+False 
+
+Adresa IP se poate determina pe baza adresei de retea si a netmask-ului
+Select one:
+False 
+
+SMTP nu este situat la nivelul Retea
+Select one:
+True
+
+Netmask-ul unei retele cu 1024 adrese ip este /22
+Select one:
+True 
+
+Apelul bind() poate fi folosit in clienti TCP
+Select one:
+True 
+
+Adresa 192.168.2.160/24 poate fi adresa de retea
+Select one:
+False 
+
+Apelul bind() este obligatoriu in orice server UDP
+Select one:
+True
+
+Apelul recvfrom() nu trimite date catre clientul TCP
+Select one:
+True 
+
+Apelul recvfrom() citeste date de la clientul TCP
+Select one:
+False
+
+IP nu este situat la nivelul Transport
+Select one:
+True 
+
+DNS nu este situat la nivelul Aplicatie
+Select one:
+False
+
+Adresa 43.23.87.64/27 poate fi adresa de retea
+Select one:
+True
+
+Un hub intelege adrese MAC
+Select one:
+False
+
+IP nu este situat la nivelul Aplicatie
+Select one:
+True 
+
+Apelul sendto() trimite date catre serverul UDP
+Select one:
+True 
+
+Netmask-ul se poate determina pe baza adresei IP si a adresei de broadcast
+Select one:
+False 
+
+DNS este situat la nivelul Link
+Select one:
+False
+
+O clasa /16 se poate imparti in 16 clase /20
+Select one:
+True 
+
+TCP nu este situat la nivelul Aplicatie
+Select one:
+True
+
+Doua calculatoare din Internet pot sa aiba aceeasi adresa IP daca au aceeasi adresa MAC
+Select one:
+False
+
+Apelul bind() este obligatoriu in orice server TCP
+Select one:
+True 
+
+Apelul accept() poate fi folosit in orice server TCP
+Select one:
+True 
+
+255.255.128.0 = /23
+Select one:
+False 
+
+Default gateway-ul unui calculator este IP-ul routerului din reteaua respectiva
+Select one:
+True 
+
+Serverul DNS setat pe un calculator trebuie localizat in aceeasi retea cu calculatorul
+Select one:
+False
+
+UDP este orientat conexiune
+Select one:
+False
+
+O clasa /8 se poate imparti in 4 clase /9.
+Select one:
+False 
+
+192.168.1.2/24 si 192.168.1.6/22 fac parte din aceasi retea
+Select one:
+False
+
+DNS nu este situat la nivelul Transport
+Select one:
+True 
+
+Apelul connect() este obligatoriu in orice client TCP
+Select one:
+True
+
+Un switch este mai performant ca un hub
+Select one:
+True 
+
+Adresa de retea nu se poate calcula pe baza adresei de broadcast si a adresei IP
+Select one:
+True 
+
+IP nu este situat la nivelul Transport
+Select one:
+True 
+
+172.16.0.1 nu este o adresa IP privata
+Select one:
+False 
+
+Nu toate adresele IP din clasa 10.0.0.0/16 sunt private
+Select one:
+False
+
+Apelul connect() este obligatoriu in orice server UDP
+Select one:
+False 
+
+Un calculator poate avea o singura adresa IP
+Select one:
+False
+
+
+Nu toate adresele IP din clasa 192.168.0.0/8 sunt private
+Select one:
+True
+
+IP nu este situat la nivelul Link
+Select one:
+True
+
+SSH nu este situat la nivelul Link
+Select one:
+True 
+
+Dimensiunea unei clase de adrese IP nu trebuie sa fie putere a lui 2
+Select one:
+False 
+
+172.16.0.1 este o adresa IP privata
+Select one:
+True 
+
+Un router se leaga de un calculator cu un cablu Cross-Over
+Select one:
+True
+
+O retea cu netmask-ul 255.255.255.0 poate avea maxim 2^8=256 calculatoare.
+Select one:
+False 
+Default gateway-ul unui calculator se afla in aceeasi retea cu el
+Select one:
+True 
+ 
+TCP este mai sigur ca UDP
+Select one:
+True 
+ 
+172.31.0.1 nu este o adresa IP privata
+Select one:
+False 
+ 
+Apelul connect() este obligatoriu in orice server TCP
+Select one:
+False 
+ 
+HTTP inseamna Hyperspeed Transfer Protocol
+Select one:
+False 
+ 
+192.168.168.168 este o adresa IP privata
+Select one:
+True
+ 
+Netmask-ul unei retele cu 1024 adrese ip este /23
+Select one:
+False
+ 
+Un switch nu poate transporta pachete UDP
+Select one:
+False 
+ 
+172.15.0.1 nu este o adresa IP privata
+Select one:
+True 
+ 
+Apelul bind() poate fi folosit in clienti UDP
+Select one:
+True
+ 
+HTTP este situat la nivelul Aplicatie
+Select one:
+True
+ 
+Apelul accept() poate fi folosit in orice server TCP
+Select one:
+True 
+ 
+1.1.1.1 este o adresa IP privata
+Select one:
+False
+ 
+Apelul connect() nu poate fi folosit in clienti UDP
+Select one:
+True
+ 
+Un server web nu poate rula si pe porturi diferite de 80
+Select one:
+False 
+ 
+O clasa /24 se poate imparti in 2 subclase de 512 IP.
+Select one:
+False
+ 
+Apelul listen() este obligatoriu in orice server TCP
+Select one:
+True
+ 
+Un router se leaga de un calculator cu un cablu Straight-Through
+Select one:
+False 
+ 
+Nu toate adresele IP din clasa 192.168.0.0/16 sunt private
+Select one:
+False
+ 
+Adresa MAC nu poate fi schimbata.
+Select one:
+False
+ 
+Localhost este 172.0.0.1
+Select one:
+False
+ 
+Adresa 192.168.2.32/27 poate fi adresa de retea
+Select one:
+True
+ 
+FF:FF:FF:FF:FF:FF este adresa MAC de broadcast.
+Select one:
+True
+ 
+Adresa MAC este reprezentata pe 6 cifre hexa.
+Select one:
+False
+ 
+HTTP transmite datele criptat
+Select one:
+False 
+ 
+FTP nu este situat la nivelul Retea
+Select one:
+True
+ 
+192.168.1.155 face parte din clasa 192.168.1.0/24
+Select one:
+True
+ 
+Star nu este o topologie de retea
+Select one:
+False 
+ 
+Toate adresele IP din clasa 172.0.0.0/12 sunt private
+Select one:
+False
+ 
+Exista doar doua topologii standard de retea: Magistrala (Bus); Stea (Star)
+Select one:
+False
+ 
+127.16.0.1 nu este o adresa IP privata
+Select one:
+True 
+ 
+HTTP nu este situat la nivelul Transport
+Select one:
+True
+ 
+Apelul accept() nu este obligatoriu in orice client TCP
+Select one:
+True 
+ 
+Un calculator nu poate avea 2 gateway-uri
+Select one:
+True
+ 
+Localhost este 127.0.0.1
+Select one:
+True 
+ 
+O adresa de IP este un identificator unic pentru fiecare calculator într-o retea IP
+Select one:
+True 
+ 
+Doua calculatoare plasate in aceeasi retea atat din punct de vedere fizic cat si logic nu pot avea default gateway-uri diferite
+Select one:
+False 
+ 
+ 
+Toate adresele IP din clasa 10.0.0.0/6 sunt private
+Select one:
+False 
+ 
+Pot exista calculatoare cu adresa 192.168.1.0
+Select one:
+True 
+ 
+FTP este situat la nivelul Retea
+Select one:
+False 
+ 
+127.0.0.1 nu poate fi setata pe un sistem ca default gateway
+Select one:
+False
+ 
+Netmask-ul se poate determina pe baza adresei IP si a adresei de retea
+Select one:
+False
+ 
+Adresa 193.231.20.1 poate fi adresa de retea
+Select one:
+True Incorrect
+ 
+In LAN pot exista mai multe calculatoare cu adresa 192.168.1.1
+Select one:
+False
+ 
+172.0.0.1 nu este o adresa IP privata
+Select one:
+True
+ 
+HTTP nu este situat la nivelul Transport
+Select one:
+True 
+ 
+O clasa de adrese IP nu trebuie sa inceapa la multiplu de dimensiunea clasei
+Select one:
+False
+ 
+O adresa IP este un numar binar pe 32 de biti
+Select one:
+True
+ 
+11111111.10000000.00000000.00000000 = 255.128.0.0
+Select one:
+True 
+ 
+Serviciul DNS ruleaza pe portul TCP 53
+Select one:
+False
+ 
+Apelul recvfrom() citeste date de la clientul UDP
+Select one:
+True 
+ 
+255.255.255.255 este adresa MAC de broadcast.
+Select one:
+False
+ 
+Adresa de broadcast se poate calcula pe baza adresei de retea si a netmask-ului
+Select one:
+True
+ 
+Pe un acelasi server web nu pot fi gazduite mai multe site-uri web
+Select one:
+False 
+ 
+Adresa IP se poate determina pe baza adresei de retea si a netmask-ului
+Select one:
+False 
+ 
+SMTP nu este situat la nivelul Retea
+Select one:
+True
+ 
+Netmask-ul unei retele cu 1024 adrese ip este /22
+Select one:
+True 
+ 
+Apelul bind() poate fi folosit in clienti TCP
+Select one:
+True 
+ 
+Adresa 192.168.2.160/24 poate fi adresa de retea
+Select one:
+False 
+ 
+Apelul bind() este obligatoriu in orice server UDP
+Select one:
+True
+ 
+Apelul recvfrom() nu trimite date catre clientul TCP
+Select one:
+True 
+ 
+Apelul recvfrom() citeste date de la clientul TCP
+Select one:
+False
+ 
+IP nu este situat la nivelul Transport
+Select one:
+True 
+ 
+DNS nu este situat la nivelul Aplicatie
+Select one:
+False
+ 
+Adresa 43.23.87.64/27 poate fi adresa de retea
+Select one:
+True
+ 
+Un hub intelege adrese MAC
+Select one:
+False
+ 
+IP nu este situat la nivelul Aplicatie
+Select one:
+True 
+ 
+Apelul sendto() trimite date catre serverul UDP
+Select one:
+True 
+ 
+Netmask-ul se poate determina pe baza adresei IP si a adresei de broadcast
+Select one:
+False 
+ 
+DNS este situat la nivelul Link
+Select one:
+False
+ 
+O clasa /16 se poate imparti in 16 clase /20
+Select one:
+True 
+ 
+TCP nu este situat la nivelul Aplicatie
+Select one:
+True
+ 
+Doua calculatoare din Internet pot sa aiba aceeasi adresa IP daca au aceeasi adresa MAC
+Select one:
+False
+ 
+Apelul bind() este obligatoriu in orice server TCP
+Select one:
+True 
+ 
+Apelul accept() poate fi folosit in orice server TCP
+Select one:
+True 
+ 
+255.255.128.0 = /23
+Select one:
+False 
+ 
+Default gateway-ul unui calculator este IP-ul routerului din reteaua respectiva
+Select one:
+True 
+ 
+Serverul DNS setat pe un calculator trebuie localizat in aceeasi retea cu calculatorul
+Select one:
+False
+ 
+UDP este orientat conexiune
+Select one:
+False
+ 
+O clasa /8 se poate imparti in 4 clase /9.
+Select one:
+False 
+ 
+192.168.1.2/24 si 192.168.1.6/22 fac parte din aceasi retea
+Select one:
+False
+ 
+DNS nu este situat la nivelul Transport
+Select one:
+True 
+ 
+Apelul connect() este obligatoriu in orice client TCP
+Select one:
+True
+ 
+Un switch este mai performant ca un hub
+Select one:
+True 
+ 
+Adresa de retea nu se poate calcula pe baza adresei de broadcast si a adresei IP
+Select one:
+True 
+ 
+IP nu este situat la nivelul Transport
+Select one:
+True 
+ 
+172.16.0.1 nu este o adresa IP privata
+Select one:
+False 
+ 
+Nu toate adresele IP din clasa 10.0.0.0/16 sunt private
+Select one:
+False
+ 
+Apelul connect() este obligatoriu in orice server UDP
+Select one:
+False 
+ 
+Un calculator poate avea o singura adresa IP
+Select one:
+False
+ 
+ 
+Nu toate adresele IP din clasa 192.168.0.0/8 sunt private
+Select one:
+True
+ 
+IP nu este situat la nivelul Link
+Select one:
+True
+ 
+SSH nu este situat la nivelul Link
+Select one:
+True 
+ 
+Dimensiunea unei clase de adrese IP nu trebuie sa fie putere a lui 2
+Select one:
+False 
+ 
+172.16.0.1 este o adresa IP privata
+Select one:
+True 
+ 
+Un router se leaga de un calculator cu un cablu Cross-Over
+Select one:
+True
+ 
+O retea cu netmask-ul 255.255.255.0 poate avea maxim 2^8=256 calculatoare.
+Select one:
+False 
+TCP asteapta confirmarea primirii pachetelor-True
+Adresa 193.256.20.0 poate fi adresa de retea-False
+Un calculator poate avea o singura adresa IP - False
+TCP nu este situat la nivelul Aplicatie-True
+TCP este situat la nivelul Retea-False
+Adresa 193.231.20.2 poate fi adresa de retea-False
+O clasa /24 se poate imparti in 3 subclase /25.-False
+192.168.1.155 face parte din clasa 192.168.1.0/25-False
+Adresa MAC este reprezentata pe 12 cifre hexa-True
+Serverul DNS setat pe un calculator poate fi localizat in aceeasi retea cu calculatorul-True
+SMTP este situat la nivelul Link-False
+O clasa /8 se poate imparti in 4 clase /9.-False
+Localhost este 127.0.0.1-True
+Un switch este mai performant ca un hub-True
+HTTP foloseste protocolul TCP-True
+11111111.10000000.00000000.00000000 = 255.1.0.0-False
+Adresa de broadcast pentru statia cu adresa IP 192.120.0.1/16 este 192.120.255.255-True
+HTTP inseamna Hypertext Transfer Protocol-True
+DNS este situat la nivelul Aplicatie-True
+Apelul bind() este obligatoriu in orice server TCP-True
+
+Apelul listen() nu este obligatoriu in orice client TCP
+true
+
+MAC inseamna media access control.
+true
+
+Apelul accept() este obligatoriu in orice client UDP
+true
+
+FTP nu este situat la nivelul Aplicatie
+false
+
+
+Bus nu este o topologie de retea
+false
+
+
+
+Un server DNS poate fi Default Gateway
+true
+
+
+Default gateway-ul unui calculator este IP-ul serverului din reteaua respectiva
+false
+
+
+Adresa 193.231.20.1 poate fi adresa de retea
+false
+
+Apelul sendto() trimite date catre clientul UDP
+true
+
+TCP nu este orientat conexiune
+false
+
+
+
+Netmask-ul unei retele cu 1024 adrese ip este /22-True
+ARP nu inseamna Address Resolution Proocol-False
+Netmask-ul unei retele cu 1024 adrese ip este /12-False
+Apelul sendto() trimite date catre serverul UDP-True
+DNS nu este situat la nivelul Transport-True
+DNS este situat la nivelul Retea-False
+Un netmask este un numar binar pe 32 de biti-True
+O retea cu netmask-ul 255.255.255.0 poate avea maxim 2^8=256 calculatoare.-False
+TCP nu este situat la nivelul Retea-True
+Adresa 192.168.2.32/27 poate fi adresa de retea-True
+
+
+Un socket UDP se creeaza cu parametrii AF_INET and SOCK_STREAM - False
+Adresa 87.35.15.63/25 poate fi adresa de broadcast - False
+Adresa de subretea pentru statia cu adresa IP 192.120.0.1/16 este 192.120.0.0 - True
+HTTP inseamna Hypertext Transfer Protocol - True
+Default gateway-ul unui calculator nu se afla in aceeasi retea cu el - False
+Un hub nu are mai multe porturi - False
+HTTPS transmite datele criptat - True
+Adresa 192.168.2.160/25 poate fi adresa de retea - False
+255.255.224.0 reprezinta un netmask valid - True
+Un server DNS poate fi Default Gateway - True
+UDP nu este situat la nivelul Aplicatie - True
+Dimensiunea unei clase de adrese IP nu trebuie sa fie putere a lui 2 - True
+Routerele folosesc adrese IP pentru a transmite cadrele catre alte reţele - True
+1.1.1.1 este o adresa IP privata - False
+Nu pot exista mai multe calculaoare cu adresa 127.0.0.1 - False
+168.168.168.168 este o adresa IP privata - Fasle
+Un hub are mai multe porturi - True
+Ring este o topologie de retea - True
+Adresa 127.0.0.1 nu poate fi adresa de broadcast. - True
+SMTP nu este situat la nivelul Transport - True
+SMTP este situat la nivelul Link - False
+Apelul recvfrom() nu trimite date catre clientul UDP - True
+10.10.10.10 este o adresa IP privata - True
+Apelul accept() poate fi folosit in orice server TCP - True
+Adresa 87.35.15.63/25 poate fi adresa de broadcast - False
+Adresa de subretea pentru statia cu adresa IP 192.120.0.1/16 este 192.120.0.1 - False
+DNS este situat la nivelul Retea - False
+Dimensiunea unei retele este 2^n; unde n este numarul de cifre 1 din netmask. - False
+Localhost este 127.0.0.1 - True
+Apelul connect() este obligatoriu in orice server UDP - False
+Ring nu este o topologie de retea - False
+O adresa de IP este un identificator comun pentru mai multe calculatoare într-o reţea IP - False
+Un switch intelege adrese MAC - True
+172.31.0.1 nu este o adresa IP privata - False
+Un switch nu poate transporta pachete UDP - False
+SSH nu este situat la nivelul Transport - True
+172.31.255.255 nu este o adresa IP privata - False
+Adresa 192.168.2.160/25 poate fi adresa de retea - False
+Clasa 193.231.20.0/24 se poate imparti in 3 subclase de 128 IP. - False
+00:00:00:00:00:00 nu este adresa MAC de broadcast. - True
+Placa de retea nu transmite datele catre alte calculatoare - False
+Adresa 87.35.15.63/26 poate fi adresa de broadcast - True
+192.168.1.155 face parte din clasa 192.168.1.0/25 - False
+Nu exista mai multe calculatoare cu adresa 127.0.0.1 - False
+SSH nu este situat la nivelul Aplicatie - False
+SSH este situat la nivelul Aplicatie - True
+Un hub este mai performant ca un switch - False
+192.168.0.2/23 si 192.168.1.6/23 fac parte din aceasi retea - True
+Pentru conectarea unui calculator la o reţea LAN; se foloseste placa de grafica - False
+Exista si altfel de socketuri decat TCP si UDP - True
+O clasa /16 nu se poate imparti in 16 clase /20 - False
+FTP nu este situat la nivelul Transport - True
+UDP nu este situat la nivelul Retea - True
+Un calculator de leaga de un swith cu un cablu Straight-Through - True
+Adresa 83.35.15.8/28 poate fi adresa de broadcast - False
+Star este o topologie de retea - True
+TCP este situat la nivelul Transport - True
+FTP nu este situat la nivelul Retea - True
+Adresa 192.168.0.255 nu poate fi adresa de retea - True
+Adresa de retea se poate calcula pe baza adresei de broadcast si a adresei IP - False
+172.0.0.1 este o adresa IP privata - False
+Adresa de retea se poate calcula pe baza adresei de broadcast si a netmask-ului - True
+Un socket UDP se creeaza cu parametrii AF_INET si SOCK_STREAM - False
+FF:FF:FF:FF:FF este adresa MAC de broadcast. - False
+Adresa 192.168.2.32/27 poate fi adresa de retea - True
+Clasa 193.231.20.0/24 se poate imparti in 2 subclase de 128 IP. - True
+DNS inseamna Domain Name System - True
+Toate adresele IP din clasa 192.168.0.0/16 sunt private - True
+Pot exista mai multe calculatoare cu adresa 192.168.1.1 - True
+Adresa 127.0.0.1 nu poate fi adresa de retea. - True
+
+Adresa MAC este reprezentata pe 48 de biti-True
+Apelul bind() este obligatoriu in orice client UDP-False
+O retea cu netmask-ul 255.255.255.0 are 2^8=256 ip-uri.-True
+Adresa 43.29.45.132/27 poate fi adresa de retea-False
+Telefoanele mobile se pot conecta la Internet fara placa de retea-False
+Localhost nu este 127.0.0.1-False
+Un server web poate rula si pe porturi diferite de 80-True
+192.168.1.2/24 si 192.168.1.6/24 fac parte din aceasi retea-True
+Adresa 192.168.2.164/26 poate fi adresa de retea-False
+Un punct de acces wireless are o raza de acoperire nelimitata-False
+172.32.0.1 nu este o adresa IP privata-True
+Adresa 192.168.0.0 poate fi adresa de retea-True
+11111111.11111111.11111100.00000000 = 255.255.254.0-False
+
+Un switch poate transporta pachete UDP -- True
+LAN este o retea globala -- Flase
+DNS nu este situat la nivelul Link -- True
+Adresa de retea se poate calcula pe baza adresei de broadcast si a netmask-ului -- True
+Adresa 43.29.45.80/27 poate fi adresa de retea -- False
+255.255.224.0 reprezinta un netmask valid -- True
+UDP nu este orientat conexiune -- True
+Adresa MAC poate fi schimbata. -- True
+UDP este orientat conexiune -- False
+DNS foloseste protocolul TCP -- False
+
+Telefoanele mobile nu se pot conecta la Internet fara placa de retea-True
+Nu toate adresele IP din clasa 10.0.0.0/16 sunt private-False
+LAN nu este o retea globala-True
+Placa de retea functioneaza ca interfata fizica între calculator si cablul de reteaFalse
+SMTP este situat la nivelul Retea-False
+O placa de retea poate avea o singura adresa IP-False
+Nu pot exista calculatoare cu adresa 192.168.1.0-False
+HTTP este situat la nivelul Link-False
+IP este situat la nivelul Retea-True
+Adresa MAC este reprezentata pe 6 biti.-False
+
+
+Apelul sendto() trimite date catre clientul UDP-True
+DNS este situat la nivelul Transport-False
+SSH este situat la nivelul Link-False
+SSH nu este situat la nivelul Transport-True
+11111111.10000000.00000000.00000000 = 255.128.0.0-True
+Exista doar socketuri TCP si UDP-False
+Un calculator poate avea mai multe adrese IP-True
+O clasa /24 se poate imparti in 3 subclase de 128 IP.-False
+Localhost nu este 172.0.0.1-True
+TCP nu este situat la nivelul Link-True
+
+Un switch intelege adrese MAC-True
+Adresa de broadcast se poate calcula pe baza adresei de retea si a netmask-ului-True
+255.255.0.0 reprezinta un netmask valid-True
+Toate adresele IP din clasa 172.0.0.0/12 sunt private-False
+Nu toate adresele IP din clasa 172.0.0.0/8 sunt private-True
+UDP nu este situat la nivelul Retea-True
+DNS este situat la nivelul Link-False
+Adresa de broadcast se poate determina pe baza adresei IP si a netmask-ului-True
+IP este situat la nivelul Link-False
+Adresa 193.255.20.0 poate fi adresa de retea-True
+
+SSH este situat la nivelul Retea-False
+TCP este orientat conexiune-True
+O retea cu netmask-ul 255.255.255.0 poate avea maxim 2^8-2=254 calculatoare.-True
+Adresa 193.231.20.3 poate fi adresa de retea-False
+Apelul bind() poate fi folosit in clienti UDP-True
+Adresa de subretea pentru statia cu adresa IP 192.120.0.1/16 este 192.120.0.1-False
+Un calculator nu poate avea 2 gateway-uri-True
+Nu toate adresele IP din clasa 10.0.0.0/8 sunt private-False
+255.255.255.255 este adresa MAC de broadcast.-False
+DNS nu este situat la nivelul Transport-True
+
+FTP este situat la nivelul Retea-False
+Adresa 83.35.15.8/28 poate fi adresa de broadcast-False
+Apelul bind() nu poate fi folosit in clienti UDP-False
+Serverul DNS setat pe un calculator trebuie localizat in aceeasi retea cu calculatorul-False
+FTP nu este situat la nivelul Transport-True
+Apelul accept() poate fi folosit in orice server TCP-True
+Adresa 193.231.20.3 poate fi adresa de retea-False
+Serviciul DNS ruleaza pe portul UDP 53-True
+Netmask-ul unei retele cu 1024 adrese ip este /12-False
+192.168.2.155 face parte din clasa 192.168.0.0/23-False\
+
+Operatia logica AND între masca si adresa IP are ca rezultat adresa de broadcast-False
+Un calculator poate avea mai multe adrese IP-True
+Apelul recvfrom() citeste date de la serverul TCP-False
+Telefoanele mobile nu se pot conecta la Internet fara placa de retea-True
+DNS foloseste protocolul UDP-True
+10.10.10.10 este o adresa IP privata-True
+SSH nu este situat la nivelul Retea-True
+HTTP foloseste protocolul UDP-False
+FTP nu este situat la nivelul Retea-True
+Adresa 192.168.2.160/24 poate fi adresa de retea-False
+
+Apelul connect() nu poate fi folosit in clienti UDP-True
+Adresa 192.168.0.255 nu poate fi adresa de retea-True
+SMTP nu este situat la nivelul Retea-True
+SMTP nu este situat la nivelul Retea-True
+MAC inseamna media access control.-True
+127.0.0.1 nu poate fi setata pe un sistem ca server DNS-True
+Netmask-ul unei retele cu 512 adrese ip este /23-True
+Localhost este 172.0.0.1-False
+0.0.0.0 nu reprezinta un netmask valid-False
+192.168.2.155 face parte din clasa 192.168.0.0/23-False
+
+Adresa IP nu se poate determina pe baza adresei de retea si a netmask-ului-True
+Exista mai mult de doua topologii standard de retea-True
+192.168.1.2/24 si 192.168.1.6/22 fac parte din aceasi retea-False
+Apelul connect() poate fi folosit in clienti UDP-False
+UDP asteapta confirmarea primirii pachetelor-False
+O retea cu netmask-ul 255.255.255.0 are 2^8=256 ip-uri.-True
+Adresa 193.256.20.0 poate fi adresa de retea-False
+Toate adresele IP din clasa 192.168.0.0/16 sunt private-True
+Ring nu este o topologie de retea-False
+DNS este situat la nivelul Aplicatie-True
+
+HTTPS transmite datele criptat-True
+Adresa de broadcast se poate determina pe baza adresei IP si a netmask-ului-True
+Apelul recvfrom() trimite date catre clientul TCP-False
+O clasa /24 se poate imparti in 2 subclase de 256 IP.-False
+192.168.1.155 face parte din clasa 192.168.1.0/24-True
+UDP nu este orientat conexiune-True
+Apelul sendto() trimite date catre serverul TCP-False
+IP este situat la nivelul Aplicatie-False
+Adresa 127.0.0.1 nu poate fi adresa de broadcast.-True
+192.168.1.155 face parte din clasa 192.168.0.0/23-True
+
+HTTP inseamna Hypertext Transfer Protocol-True
+Apelul bind() poate fi folosit in clienti TCP-True
+Un server DNS nu poate fi Default Gateway-False
+HTTP nu este situat la nivelul Link-True
+In LAN nu pot exista mai multe calculatoare cu adresa 192.168.1.1-True
+Default gateway-ul unui calculator este IP-ul routerului din reteaua respectiva-True
+Apelul recvfrom() trimite date catre serverul UDP-False
+172.31.255.255 nu este o adresa IP privata-False
+Un hub nu intelege adrese MAC-True
+HTTP transmite datele criptat-False

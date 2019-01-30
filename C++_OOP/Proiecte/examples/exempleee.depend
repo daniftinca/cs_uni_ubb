@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1498221701 source:c:\work\facultate\c++\proiecte\exempleee\main.cpp
+	<iostream>
+	<algorithm>
+	<math.h>
+

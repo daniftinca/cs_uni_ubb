@@ -1,0 +1,27 @@
+vertername(8413,meyer,bremen,0.07,725.15).
+vertername(5016,meier,hamburg,0.05,200.00).
+vertername(1215,schulze,bremen,0.06,50.50).
+
+artikelstammdaten(12, oberhemd, 39.8).
+artikelstammdaten(22, mantel, 360.00).
+artikelstammdaten(11, oberhemd, 44.2).
+artikelstammdaten(13, hose, 110.5).
+
+umsatzdaten(8413,12,40,24).
+umsatzdaten(5016,22,10,24).
+umsatzdaten(8413,11,70,24).
+umsatzdaten(1215,11,20,25).
+umsatzdaten(5016,22,35,25).
+umsatzdaten(8413,13,35,24).
+umsatzdaten(1215,13,5,24).
+umsatzdaten(1215,12,10,24).
+umsatzdaten(8413,11,20,25).
+
+
+
+hat_umsatz_am_tag(Wer,Wann):- umsatzdaten(Wer,X,Y,Wann).
+wurden_hosen_verkauft(Wer,Wann) :-  umsatzdaten(Wer,13,X,Wann).
+gibt_es_umsatze(Artikelnummer1,Artikelnummer2,Wann):- umsatzdaten(X,Artikelnummer1,Y,Wann); umsatzdaten(X,Artikelnummer2,Y,Wann).
+
+
+tatigkeit(Wer,Was,Wann):-umsatzdaten(Wer,Id:-artikelstammdaten(Id,Was,Y),Z,Wann).

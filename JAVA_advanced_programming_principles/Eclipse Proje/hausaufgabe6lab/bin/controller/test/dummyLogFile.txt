@@ -1,0 +1,4 @@
+2017-01-01 11:56:7 SEVERE HelloExample:51 - This is fatal : mkyong
+2017-12-14 19:24:52 INFO SaveAction:4 - Updated succesfully record number 4 : mkyong
+2017-07-07 16:59:39 SEVERE EditAction:54 - Delete error : antomas
+2017-07-07 16:59:40 SEVERE EditAction:54 - Delete error : antomas

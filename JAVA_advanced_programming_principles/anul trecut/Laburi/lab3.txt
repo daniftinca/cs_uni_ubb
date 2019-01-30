@@ -1,0 +1,5 @@
+Labor 3 GUI Oberfläche für Rechner Anwendung (Deadline – 8te Woche – 21-25 November 2016)
+
+
+
+Mit der Unterstützung von einer Grafikbibliothek (JavaFx, Swing, AWT,...) muss man für die Rechner Anwendung eine grafische Oberfläche bauen. Die Funktionalität und Implementierung bleibt wie bisher. 

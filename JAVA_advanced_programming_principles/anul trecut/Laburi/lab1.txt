@@ -1,0 +1,23 @@
+Hausaufgabe bis Woche 4 (27 Oktober)
+
+
+
+- ein Programm, die folgt OOP Struktur,
+
+- JUnits fuer jeden Repository, Controller,
+
+- Kommentare, Kode klar
+
+- Konsolle Anwendung (Menu);
+
+   z.B. 1 - Add student;
+
+         2 - Delete student;...
+
+- im Kontroller:
+
+- CRUD Operation (Create, Read, Update, Delete)
+
+- 1 Filter (z.B. sucht nach Studierende, die hat mehr als 25 Jahre alt)
+
+- 1 Sortierung (z.B. sortiert alfabetisch nach Name).

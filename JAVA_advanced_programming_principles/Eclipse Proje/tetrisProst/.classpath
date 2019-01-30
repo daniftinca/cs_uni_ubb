@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="tetris/src"/>
+	<classpathentry kind="lib" path="C:/Users/Dan/Desktop/jar_files/animal-sniffer-annotations-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dan/Desktop/jar_files/checker-compat-qual-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dan/Desktop/jar_files/error_prone_annotations-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dan/Desktop/jar_files/guava-24.1-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dan/Desktop/jar_files/j2objc-annotations-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dan/Desktop/jar_files/jsr305-1.3.9.jar"/>
+	<classpathentry kind="output" path="tetris/bin"/>
+</classpath>

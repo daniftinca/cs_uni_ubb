@@ -1,0 +1,5 @@
+service\automate\AutomatFinit.class
+service\FileHandlerService.class
+service\automate\State.class
+service\automate\Transition.class
+service\processing\CodeProcessor.class

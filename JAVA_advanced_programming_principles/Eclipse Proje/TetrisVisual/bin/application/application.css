@@ -1,0 +1,68 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.root{
+	-fx-background-color: #F6F6F6;
+}
+
+.square-grid{
+	-fx-alignment: top-center;
+	-fx-padding:10;	
+}
+
+.button-container{
+	-fx-alignment: bottom-left;
+	-fx-padding: 10px;
+}
+
+.square{
+	-fx-fill: #255F85;
+	-fx-stroke: #fff;
+	-fx-stroke-width:0.5;
+	-fx-cursor: hand ;
+}
+
+.square-1{
+	-fx-fill: #111;
+}
+
+.square-2{
+	-fx-fill: #222;
+}
+
+.square-3{
+	-fx-fill: #333;
+}
+
+.square-4{
+	-fx-fill: #444;
+}
+
+.square:hover{
+}
+
+.square:pressed{
+	-fx-fill: #78CDD7;
+	-fx-scale-y: 0.8;
+    -fx-scale-x: 0.8;
+	
+}
+
+.square-alive{
+	-fx-fill: #78CDD7;
+}
+
+.square-alive:hover{
+	-fx-fill: #77BAB9;
+}
+
+.square-alive:pressed{
+	-fx-fill: #255F85;
+	-fx-scale-y: 0.8;
+    -fx-scale-x: 0.8;
+}
+
+.userButton{
+	-fx-min-width:10px;
+	-fx-min-height:10px;
+}

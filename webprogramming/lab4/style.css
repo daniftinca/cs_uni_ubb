@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.game-grid{
+    width:50%;
+    min-width: 400px;
+    position: relative;
+
+}
+.winner-label{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 266px;
+    background: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.none{
+    display: none;
+
+}
+
+.controls{
+    width:10%;
+}
+.info{
+    width:20%;
+}
+.row{
+    position: relative;
+    display: flex;
+}
+
+.square{
+    border: solid 1px black;
+    width:100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    font-size: 65px;
+}

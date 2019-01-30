@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+    .lab{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .lab .programe-exemplu,
+    .lab .rezolvare-ebnf{
+        min-width:300px;
+        width:48%;
+    }
+</style>
+<script src="cerc.js"></script>
+<script src="cmmdc.js"></script>
+<script src="suma.js"></script>
+
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+
+</nav>
+<h1>Lab 1</h1>
+<div class="lab">
+    <div class="programe-exemplu">
+        <h2>Raza si perimetru la cerc</h2>
+        <pre>
+        function cerc(raza) {
+            var pi = 3.14;
+            return [2*raza*pi, pi*raza*raza];
+        }
+    </pre>
+
+        <h2>Suma a n numere</h2>
+        <pre>
+    function sumaNNumere() {
+        var suma = 0;
+        var nextNumber = prompt();
+        while (nextNumber != null && nextNumber !='') {
+
+            suma = suma + parseInt(nextNumber);
+            nextNumber = prompt();
+        }
+        return suma
+    }
+    </pre>
+        <h2>CMMDC</h2>
+        <pre>
+   function cmmdc(a, b) {
+    var aux = 0;
+    if(a===0){
+        return b;
+    }
+    if(b===0){
+        return a;
+    }
+    while (b) {
+        aux = a;
+        a = b;
+        b = aux % b;
+    }
+    return a
+}
+</pre>
+    </div>
+    <div class="rezolvare-ebnf">
+        <h2>EBNF</h2>
+    <pre>
+    functie::=antet"{"listai"}"
+    antet::=function ID"("[listapformali]")"
+    listap::=par["," par]
+    listapformali::= parFormal["," par]
+    parFormal::= ID
+    par::= ID|CONST
+    listai::=instr | instr listai
+    instr::= declarare | atribuire | apelsingur | while | return | if | ifelse | functie
+    apel::= ID"("[listap]")" | ID.ID"("[listap]")"
+    apelsingur::=apel";"
+    while::= "while" "("cond")""{"listai"}"
+    cond::= expr ("<"|">"|"=="|"<="|">="|"===") expr
+    if::= "if" "(" cond ")" "{" listai "}"
+    else::= "else" "{"listai"}"
+    elif::== "else " if | "else " if elif
+    ifelse::= if [elif] else | if else
+    return::= "return "expr";"
+    declarare::= var ID";" | var atribuire
+    atribuire::= ID"="expr";"
+    expr::= ID|CONST|apel|listaElem|expr("+"|"-"|"%"|"/"|"*")expr
+    listaElem::="["expr[","expr]"]"
+    defclasa::="class "ID"{"listai"}"
+    instrClasa::= declarare | metoda
+    metoda::= ID"("[listapFormali]")""{"[listai]"}
+
+</pre>
+    </div>
+</div>
+</body>
+</html>

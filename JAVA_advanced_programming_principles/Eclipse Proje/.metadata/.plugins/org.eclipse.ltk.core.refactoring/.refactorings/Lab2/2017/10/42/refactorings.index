@@ -1,0 +1,22 @@
+1508048031449	Delete element
+1508048208356	Delete element
+1508048281756	Rename compilation unit 'PreisStrategie.java'
+1508050130144	Rename package 'Benutzer'
+1508059715169	Rename type 'Repository'
+1508060070288	Delete element
+1508060112849	Rename type 'RepositoryBenutzer'
+1508332316718	Delete element
+1508332324109	Delete element
+1508333211277	Move compilation unit
+1508333219241	Move compilation unit
+1508334133249	Move compilation unit
+1508337837195	Delete element
+1508390513087	Rename field 'erschien_jahr'
+1508390525944	Rename field 'basispreis'
+1508390550602	Rename local variable 'erschien_jahr'
+1508390557125	Rename local variable 'basispreis'
+1508390595252	Rename method 'calcPreis'
+1508391140737	Rename local variable 'erschien_jahr'
+1508391149036	Rename method 'getErschien_jahr'
+1508391157721	Rename method 'setBasispreis'
+1508391165829	Rename local variable 'basispreis'

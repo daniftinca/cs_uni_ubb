@@ -1,0 +1,14 @@
+package elxl;
+
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Hund h = (Hund) new Tier();
+		 h.functie();
+	}
+
+}

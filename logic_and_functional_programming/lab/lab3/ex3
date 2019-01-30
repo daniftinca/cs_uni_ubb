@@ -1,0 +1,21 @@
+maennlich(paul). % Paul ist m¨annlich
+maennlich(fritz). % Fritz ist m¨annlich
+maennlich(steffen).% Steffen ist m¨annlich
+weiblich(karin). % Karin ist weiblich
+weiblich(lisa). % Lisa ist weiblich
+weiblich(maria). % Maria ist weiblich
+weiblich(sina). % Sina ist weiblich
+vater(steffen, paul). % Steffen ist der Vater von Paul
+vater(fritz, karin). % Fritz ist der Vater von Karin
+vater(steffen, lisa). % Steffen ist der Vater von Lisa
+vater(paul, maria). % Paul ist der Vater von Maria
+vater(fritz,asdf).
+mutter(karin, maria). % Karin ist die Mutter von Maria
+mutter(sina, paul). % Sina ist die Mutter von Paul
+vater(asdf,qwer).
+
+paar(M,F):-mutter(M,X), vater(F,X).
+
+geschwister(A,B):-(mutter(X,A),mutter(X,B));(vater(X,A),vater(X,B)).
+
+neffe(N,X):- (vater(T,N),geschwister(T,X));(mutter(M,N),geschwister(M,X)).

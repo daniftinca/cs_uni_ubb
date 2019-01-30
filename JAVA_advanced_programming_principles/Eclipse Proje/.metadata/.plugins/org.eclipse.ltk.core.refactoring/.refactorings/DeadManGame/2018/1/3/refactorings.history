@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ui.fxml&apos; to &apos;SpaceInvaders/src/application&apos;&#x0D;&#x0A;- Original project: &apos;DeadManGame&apos;&#x0D;&#x0A;- Destination element: &apos;SpaceInvaders/src/application&apos;&#x0D;&#x0A;- Original element: &apos;ui.fxml&apos;" description="Copy file" destination="=SpaceInvaders/src&lt;application" element1="src/application/ui.fxml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1516203252929" units="0" version="1.0"/>
+</session>

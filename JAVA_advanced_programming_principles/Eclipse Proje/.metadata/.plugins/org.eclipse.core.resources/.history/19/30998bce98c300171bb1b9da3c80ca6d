@@ -1,0 +1,50 @@
+/**
+ * 
+ */
+package logic;
+
+import java.util.Stack;
+
+import token.NumberToken;
+import token.Token;
+
+/**
+ * @author Dan
+ *A class to encapsule the reverse polish algorithm.
+ */
+public class ReversePolish {
+
+	public static double getReversePolishOutput(Stack<Token> input) {
+		double finalResult = 0;
+		Stack<Token> auxiliaryStack = new Stack<Token>();
+		
+		NumberToken firstValue = new NumberToken(input.pop().getValue());
+		finalResult+= firstValue.getDouble();
+		while(!input.empty()) {
+			
+			ArrayList<Token> letsSee = new ArrayList<Token>(auxiliaryStack);
+			if(!input.peek().isOperator()) {
+				auxiliaryStack.push(input.pop());
+			}
+			else {
+				if(input.peek().getValue() == "+") {
+					NumberToken number1 = new NumberToken(auxiliaryStack.pop().getValue());
+					finalResult = number1.getDouble() + finalResult;
+				}
+				if(input.peek().getValue() == "-") {
+					NumberToken number1 = new NumberToken(auxiliaryStack.pop().getValue());
+					finalResult = number1.getDouble() - finalResult;
+				}
+				if(input.peek().getValue() == "*") {
+					NumberToken number1 = new NumberToken(auxiliaryStack.pop().getValue());
+					finalResult = number1.getDouble() * finalResult;
+				}
+				if(input.peek().getValue() == "/") {
+					NumberToken number1 = new NumberToken(auxiliaryStack.pop().getValue());
+					finalResult = number1.getDouble() / finalResult;
+				}
+			}
+		}
+		return finalResult;
+	}
+}

@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+package model;
+
+/**
+ * @author Dan
+ * Diese Klasse wird das Spieltafel enthalten.
+ */
+public class Board {
+	int [][] spielTafel;
+
+	public Board(int laenge, int breite) {
+		super();
+		spielTafel = new int[laenge][breite];
+	}
+	
+	public Board(int[][] board) {
+		super();
+		spielTafel = board;
+	}
+
+	public int[][] getSpielTafel() {
+		return spielTafel;
+	}
+
+	public void setSpielTafel(int[][] spielTafel) {
+		this.spielTafel = spielTafel;
+	}
+	
+	public void setPawn(int i, int j, value) {
+		spielTafel[i][j]=
+	}
+	
+	public int getPawnAt(int i, int j) {
+		return spielTafel[i][j];
+	}
+	
+	public void togglePawn(int i, int j) {
+		if(spielTafel[i][j]==0) {
+			spielTafel[i][j]=2;
+		} else {
+			spielTafel[i][j] = 0;
+		}
+	}
+	
+}

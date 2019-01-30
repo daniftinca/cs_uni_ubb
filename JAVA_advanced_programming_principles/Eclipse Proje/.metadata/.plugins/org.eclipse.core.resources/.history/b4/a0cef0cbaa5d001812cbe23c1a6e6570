@@ -1,0 +1,7 @@
+package elxl;
+
+public class Hund {
+	public Hund(int as) {
+		System.out.println("Child");
+	}
+}

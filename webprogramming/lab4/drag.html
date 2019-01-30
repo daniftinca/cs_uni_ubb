@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dragger</title>
+</head>
+<body>
+
+<div class="drag-container">
+    <div class="drag-slot" id="solt-1">
+        <div class="drag-element">1</div>
+    </div>
+    <div class="drag-slot" id="solt-2">
+        <div class="drag-element">2</div>
+    </div>
+    <div class="drag-slot" id="solt-3">
+        <div class="drag-element">3</div>
+    </div>
+    <div class="drag-slot" id="solt-4">
+        <div class="drag-element">4</div>
+    </div>
+
+</div>
+
+</body>
+
+<style>
+    .drag-container{
+        background-color: red;
+        max-width: 300px;
+        position: relative;
+        height: 600px;
+        padding: 20px 0;
+
+    }
+    .drag-slot{
+        width:90%;
+        margin:20px auto;
+        border:1px dotted white;
+        height: 100px;
+        position: relative;
+
+    }
+    .drag-element{
+        top: 5px;
+        left: 15px;
+        width: 243px;
+        height: 90px;
+        text-align: center;
+        background: blue;
+        color: orange;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: pointer;
+        position: absolute;
+    }
+</style>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+
+<script>
+
+
+
+    var dragging = undefined;
+    var lastEmptySlot = undefined;
+
+    $('.drag-element').on('mousedown', function(){
+        dragging = $(this);
+        lastEmptySlot=$(this).parent();
+        console.log("I set everything");
+        console.log(lastEmptySlot);
+        console.log(dragging);
+
+    });
+
+    $('body').on('mousemove', function(e){
+        if(typeof dragging !== "undefined") {
+            dragging.css({
+                top : e.pageY -50,
+                left : e.pageX-50,
+                position: "fixed"
+            });
+        }
+    });
+
+    $('.drag-slot').on('mouseenter',function () {
+       if(typeof dragging !== "undefined" && lastEmptySlot!==undefined){
+           console.log("Mouse enter: ");
+           var thisParent = $(this);
+            console.log("Parent entered: ");console.log(thisParent);
+           lastEmptySlot.append($(this).children().first());
+            console.log("Appended to : ");console.log(lastEmptySlot);
+           lastEmptySlot = thisParent;
+           console.log("New lastemptyslot: ");console.log(lastEmptySlot);
+       }
+    });
+
+
+    $('body').on('mouseup', function(){
+        lastEmptySlot.append(dragging);
+        dragging.css({
+            position:"absolute",
+            top:5,
+            left:15,
+
+        });
+        lastEmptySlot = undefined;
+        dragging = undefined;
+    });
+
+
+</script>
+</html>

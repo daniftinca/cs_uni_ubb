@@ -1,0 +1,15 @@
+Acer||Aspire 5||1200.50||Nein
+HP||Pavilion||1400.75||Ja
+Dell||XPS||1646.1||Nein
+Dell||Latitude||1791.78||Ja
+Dell||Inspiron||1179.00||Ja
+Lenovo||Ideapad||498.15||Nein
+Lenovo||Thinkpad||618.54||Nein
+Lenovo||Yoga||1779.0||Ja
+Lenovo||Legion||1499.99||Ja
+Lenovo||Z51||580.99||Nein
+Toshiba||Satellite Pro||849.00||Nein
+Toshiba||Tecra|| 1829.3||Ja
+Toshiba||Portege||2049.16||Ja
+Acer||Aspire 5||599.00||Nein
+Acer||One 10||295.25||Nein 

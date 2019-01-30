@@ -1,0 +1,48 @@
+{
+  "states": [
+    {
+      "initial": true,
+      "final": false,
+      "name": "q1"
+    },
+    {
+      "initial": false,
+      "final": false,
+      "name": "q2"
+    },
+    {
+      "initial": false,
+      "final": true,
+      "name": "q3"
+    },
+
+    {
+      "initial": false,
+      "final": false,
+      "name": "q4"
+    }
+  ],
+  "transitions": [
+    {
+      "from": "q1",
+      "to": "q2",
+      "value": "0"
+    },
+    {
+      "from": "q",
+      "to": "r",
+      "value": "1"
+    },
+    {
+      "from": "r",
+      "to": "s",
+      "value": "0"
+    },
+    {
+      "from": "s",
+      "to": "p",
+      "value": "1"
+    }
+  ]
+}
+

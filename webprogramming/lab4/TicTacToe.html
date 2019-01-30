@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+
+
+
+    <!--<script type="javascript" src="script.js"></script>-->
+</head>
+<script>
+
+
+
+
+    class Tictactoe {
+
+
+        constructor(){
+            this.grid = [
+                ['', '', ''],
+                ['', '', ''],
+                ['', '', ''],
+            ];
+
+            this.gameState = 'undecided';
+            this.winner = null;
+        }
+        makeMove(player, coord_x, coord_y) {
+            if(this.gameState==='undecided' && this.grid[coord_x][coord_y]==='') {
+                this.grid[coord_x][coord_y] = player;
+
+                if(this.checkGameState()){
+                    this.gameState = 'Won by'+player;
+                    this.winner = player;
+                }
+            }
+        }
+
+        tictacMove(player,coord_x,coord_y){
+            if(this.grid[coord_x][coord_y]==='') {
+                console.log("Making move for player: " + player + " at: " + coord_x + coord_y);
+                this.makeMove(player, coord_x, coord_y);
+                var computer = null;
+                if (player === 'x') {
+                    computer = 'o';
+                } else {
+                    computer = 'x';
+                }
+
+                var coords = this.getRandomCoords();
+
+                console.log("Making move for player: " + computer + " at: " + coords[0] + coords[1]);
+                this.makeMove(computer, coords[0], coords[1]);
+            }
+        }
+
+        getRandomCoords(){
+            var safetyCounter = 0;
+            var x;
+            var y;
+            while(true){
+                x = this.getRandomInt(3);
+                y = this.getRandomInt(3);
+                if(this.grid[x][y]===''){
+                    return [x,y];
+                }
+                safetyCounter++;
+                if(safetyCounter ===10){
+                    return null;
+                }
+            }
+        }
+        getRandomInt(max) {
+            return Math.floor(Math.random() * Math.floor(max));
+        }
+
+        checkGameState() {
+            for (var i = 0; i < 3; i++) {
+                for (var j = 0; j < 3; j++) {
+                    console.log(i,j);
+                    if (this.grid[i][j] !== '') {
+
+                        if (i === 1 && j === 1) {
+                            console.log("Checking middle");
+                            if (
+                                (this.grid[i][j] === this.grid[i][j - 1] && this.grid[i][j] === this.grid[i][j + 1]) ||
+                                (this.grid[i][j] === this.grid[i - 1][j] && this.grid[i][j] === this.grid[i + 1][j]) ||
+                                (this.grid[i][j] === this.grid[i - 1][j - 1] && this.grid[i][j] === this.grid[i + 1][j + 1]) ||
+                                (this.grid[i][j] === this.grid[i - 1][j + 1] && this.grid[i][j] === this.grid[i + 1][j - 1])
+                            ) {
+                                return true;
+                            }
+                        } else if (i === 0 && j < 2) {
+                            if (
+                                (this.grid[i][j] === this.grid[i][j + 1] && this.grid[i][j] === this.grid[i][j + 2]) ||
+                                (this.grid[i][j] === this.grid[i + 1][j] && this.grid[i][j] === this.grid[i + 2][j])
+                            ) {
+                                return true;
+                            }
+                        } else if (i === 0 && j === 2) {
+                            if (this.grid[i][j] === this.grid[i + 1][j] && this.grid[i][j] === this.grid[i + 2][j]) {
+                                return true;
+                            }
+                        } else if (i === 2 && j === 0) {
+                            if (this.grid[i][j] === this.grid[i][j + 1] && this.grid[i][j] === this.grid[i][j + 2]) {
+                                return true;
+                            }
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+    }
+
+    class Game{
+
+        constructor (player){
+            this.currentInstance = new Tictactoe();
+            this.player = player;
+            this.pastScores = {
+                'Player' : 0,
+                'Computer' : 0
+            };
+        }
+
+        newGame(){
+            var winner = this.currentInstance.winner;
+            if(winner!=null) {
+                if (winner === this.player) {
+                    this.pastScores['Player'] += 1;
+                } else {
+                    this.pastScores['Computer'] += 1;
+                }
+            }
+            this.currentInstance = new Tictactoe();
+        }
+        tictacMove(player,coord_x,coord_y){
+            this.currentInstance.tictacMove(player,coord_x,coord_y);
+
+        }
+    }
+
+    function populateGameGrid(tictacttoeInstance) {
+        var grid = tictacttoeInstance.currentInstance.grid;
+        console.log(tictacttoeInstance);
+        console.log(tictacttoeInstance.currentInstance.grid)
+        for(var i = 0; i<3;i++) {
+            for (var j = 0; j < 3; j++) {
+                var id = 'sq' + i + j;
+                document.getElementById(id).innerText  = grid[i][j];
+            }
+        }
+    }
+    function newGame() {
+        console.log("Starting a new game");
+        var radios = document.getElementsByName('choose');
+        for (var i = 0, length = radios.length; i < length; i++) {
+            if (radios[i].checked) {
+                playerChoice = radios[i].value;
+                break;
+            }
+
+        }
+        document.getElementById('winner-label').classList.add("none");
+        game.currentInstance = new Tictactoe();
+        if(playerChoice==='o'){
+            game.currentInstance.makeMove('x',Math.floor(Math.random() * Math.floor(3)),Math.floor(Math.random() * Math.floor(3)),)
+        }
+        populateGameGrid(game);
+        console.log(game);
+    }
+
+    function tictacMove(player, coord_x, coord_y) {
+        console.log(coord_x);
+        console.log(coord_y);
+
+        game.tictacMove(player,coord_x,coord_y);
+        populateGameGrid(game);
+        if(game.currentInstance.winner!=null){
+            document.getElementById('winner-label').innerText = 'Player '+game.currentInstance.winner + ' has won!';
+            document.getElementById('winner-label').classList.remove("none");
+            if(game.currentInstance.winner===playerChoice){
+                playerscore++;
+            } else{
+                computerscore++;
+            }
+            document.getElementById('player-score').innerText = playerscore;
+            document.getElementById('computer-score').innerText = computerscore;
+        }
+    }
+
+
+    playerscore = 0;
+    computerscore = 0;
+    var game = new Game('x');
+    console.log(game);
+    var playerChoice = 'x';
+
+
+</script>
+<body>
+
+<h1>Play a game of Tic Tac Toe</h1>
+
+<div class="container">
+    <div class="game-grid">
+        <div class="winner-label none" id="winner-label"></div>
+        <div class="row">
+            <div class="square" id="sq00" onclick="tictacMove(playerChoice,0,0)"></div>
+            <div class="square" id="sq01" onclick="tictacMove(playerChoice,0,1)"></div>
+            <div class="square" id="sq02" onclick="tictacMove(playerChoice,0,2)"></div>
+        </div>
+        <div class="row">
+            <div class="square" id="sq10" onclick="tictacMove(playerChoice,1,0)"></div>
+            <div class="square" id="sq11" onclick="tictacMove(playerChoice,1,1)"></div>
+            <div class="square" id="sq12" onclick="tictacMove(playerChoice,1,2)"></div>
+        </div>
+        <div class="row">
+            <div class="square" id="sq20" onclick="tictacMove(playerChoice,2,0)"></div>
+            <div class="square" id="sq21" onclick="tictacMove(playerChoice,2,1)"></div>
+            <div class="square" id="sq22" onclick="tictacMove(playerChoice,2,2)"></div>
+        </div>
+    </div>
+    <div class="controls">
+        <div class="choose-sign">
+            <label>Choose: </label>
+            <label  for="x-radio">X</label>
+            <input checked type="radio" id="x-radio" value="x" name="choose">
+            <label for="o-radio">O</label>
+            <input type="radio" id="o-radio" value="o" name="choose">
+        </div>
+        <div class="game-controls">
+            <label>Controls:</label>
+            <button onclick="newGame()">New Game</button>
+        </div>
+    </div>
+    <div class="info">
+        <div class="playerturn">It's <span id="playername"></span>'s turn now</div>
+        <div class="score">
+            <label>Score:</label>
+            <div class="player1">Player: <span id="player-score"></span></div>
+            <div class="player1">Computer: <span id="computer-score"></span></div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

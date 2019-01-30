@@ -1,0 +1,33 @@
+
+.elements .element{
+    margin:30px 0;
+}
+
+.elements .element .element-title{
+    color:red;
+}
+
+.elements .element .element-value{
+    color:blue;
+}
+
+.elements .element:nth-child(2n){
+    background-color: fuchsia;
+}
+
+
+.elements .element:nth-child(2n+1){
+    background-color: aquamarine;
+}
+
+.element-first{
+   background-color: chartreuse;
+    color:white;
+    font-size:30px;
+}
+
+
+.useless-class,
+.body-useless-class{
+    background:#f0f0f0;
+}
